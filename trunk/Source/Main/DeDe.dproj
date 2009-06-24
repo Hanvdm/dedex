@@ -1,0 +1,156 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e1f42cee-d3c0-4822-b723-2479a878edce}</ProjectGuid>
+    <MainSource>DeDe.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>..\..\bin\DeDe.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Alignment>1</DCC_Alignment>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_OpenStringParams>False</DCC_OpenStringParams>
+    <DCC_StrictVarStrings>False</DCC_StrictVarStrings>
+    <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ImageBase>500000</DCC_ImageBase>
+    <DCC_UnitSearchPath>FatExpression</DCC_UnitSearchPath>
+    <DCC_ResourcePath>FatExpression</DCC_ResourcePath>
+    <DCC_ObjPath>FatExpression</DCC_ObjPath>
+    <DCC_IncludePath>FatExpression</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Alignment>1</DCC_Alignment>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_OpenStringParams>False</DCC_OpenStringParams>
+    <DCC_StrictVarStrings>False</DCC_StrictVarStrings>
+    <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
+    <DCC_UnitSearchPath>FatExpression</DCC_UnitSearchPath>
+    <DCC_ResourcePath>FatExpression</DCC_ResourcePath>
+    <DCC_ObjPath>FatExpression</DCC_ObjPath>
+    <DCC_IncludePath>FatExpression</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>..\..\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>..\..\dcu</DCC_HppOutput>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="RunParams">more</Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Language><Language Name="RootDir">F:\Delphi\Bin\</Language></Language><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">9</VersionInfo><VersionInfo Name="MinorVer">6</VersionInfo><VersionInfo Name="Release">19</VersionInfo><VersionInfo Name="Build">9</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">True</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">9.6.19.9</VersionInfoKeys><VersionInfoKeys Name="InternalName">DeDe</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">(c) 1999-2002 by DaFixer</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">3.11</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">DeDe.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="DeDe.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="AboutUnit.pas">
+      <Form>AboutBox</Form>
+    </DCCReference>
+    <DCCReference Include="AnalizUnit.pas">
+      <Form>AnalyzForm</Form>
+    </DCCReference>
+    <DCCReference Include="asm2opcode.pas" />
+    <DCCReference Include="ASMConvertUnit.pas">
+      <Form>ASMForm</Form>
+    </DCCReference>
+    <DCCReference Include="ASMShow.pas">
+      <Form>ASMShowForm</Form>
+    </DCCReference>
+    <DCCReference Include="AsmTables.pas" />
+    <DCCReference Include="BPLUnit.pas">
+      <Form>BPL</Form>
+    </DCCReference>
+    <DCCReference Include="ClassInfoUnit.pas">
+      <Form>ClassInfoForm</Form>
+    </DCCReference>
+    <DCCReference Include="ConverterUnit.pas">
+      <Form>ConverterForm</Form>
+    </DCCReference>
+    <DCCReference Include="CRC32.PAS" />
+    <DCCReference Include="custsetunit.pas">
+      <Form>w32CustSetForm</Form>
+    </DCCReference>
+    <DCCReference Include="DCUOptionUnit.pas">
+      <Form>DCUOptionForm</Form>
+    </DCCReference>
+    <DCCReference Include="DCUUnit.pas">
+      <Form>DCUForm</Form>
+    </DCCReference>
+    <DCCReference Include="DeDeBPL.pas" />
+    <DCCReference Include="DeDeBSS.pas" />
+    <DCCReference Include="DeDeClassEmulator.pas" />
+    <DCCReference Include="DeDeClassHandle.pas" />
+    <DCCReference Include="DeDeConstants.pas" />
+    <DCCReference Include="DeDeDCUDumper.pas" />
+    <DCCReference Include="DeDeDisAsm.pas" />
+    <DCCReference Include="DeDeDPJEng.pas" />
+    <DCCReference Include="DeDeDUF.pas" />
+    <DCCReference Include="DeDeEditText.pas">
+      <Form>EditTextForm</Form>
+    </DCCReference>
+    <DCCReference Include="DeDeELFClasses.pas" />
+    <DCCReference Include="DeDeExpressions.pas" />
+    <DCCReference Include="DeDeHidden.pas" />
+    <DCCReference Include="DeDeMemDumps.pas" />
+    <DCCReference Include="DeDeOffsInf.pas" />
+    <DCCReference Include="DeDePAS.pas" />
+    <DCCReference Include="DeDeReg.pas" />
+    <DCCReference Include="DeDeRes.pas" />
+    <DCCReference Include="DeDeSym.pas" />
+    <DCCReference Include="DeDeUtils.pas" />
+    <DCCReference Include="DeDe_SDK.pas">
+      <Form>Unit1</Form>
+    </DCCReference>
+    <DCCReference Include="DOIAddDtaUnit.pas">
+      <Form>DOIAddDataForm</Form>
+    </DCCReference>
+    <DCCReference Include="DOIBUnit.pas">
+      <Form>DOIBForm</Form>
+    </DCCReference>
+    <DCCReference Include="DOIParsr.pas">
+      <Form>DOIParsFrm</Form>
+    </DCCReference>
+    <DCCReference Include="EditExprUnit.pas" />
+    <DCCReference Include="Emulator.pas" />
+    <DCCReference Include="EPFindUnit.pas">
+      <Form>EPFindForm</Form>
+    </DCCReference>
+    <DCCReference Include="MainUnit.pas">
+      <Form>DeDeMainForm</Form>
+    </DCCReference>
+    <DCCReference Include="PlugInInterface.pas" />
+    <DCCReference Include="PreferencesUnit.pas">
+      <Form>PrefsForm</Form>
+    </DCCReference>
+    <DCCReference Include="SectionEditUnit.pas">
+      <Form>FlagsEditForm</Form>
+    </DCCReference>
+    <DCCReference Include="SelProcessUnit.pas">
+      <Form>MemDmpForm</Form>
+    </DCCReference>
+    <DCCReference Include="ShowPEUnit.pas">
+      <Form>PEIForm</Form>
+    </DCCReference>
+    <DCCReference Include="ShowPluginUnit.pas">
+      <Form>ShowPlugInForm</Form>
+    </DCCReference>
+    <DCCReference Include="SpyDebugUnit.pas">
+      <Form>SpyDebugForm</Form>
+    </DCCReference>
+    <DCCReference Include="StatsUnit.pas">
+      <Form>StatsForm</Form>
+    </DCCReference>
+    <DCCReference Include="SymbolsUnit.pas" />
+  </ItemGroup>
+</Project>

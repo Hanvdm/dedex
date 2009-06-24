@@ -1,0 +1,5900 @@
+API:KERNEL32.dll:AddAtomA
+    LPSTR
+
+API:KERNEL32.dll:AddAtomW
+    LPWSTR
+
+API:KERNEL32.dll:AllocConsole
+    VOID
+
+API:KERNEL32.dll:BackupRead
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    BOOL
+    BOOL
+    LPDATA
+
+API:KERNEL32.dll:BackupSeek
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:BackupWrite
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    BOOL
+    BOOL
+    LPDATA
+
+API:KERNEL32.dll:Beep
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:BeginUpdateResourceA
+    LPSTR
+    BOOL
+
+API:KERNEL32.dll:BeginUpdateResourceW
+    LPWSTR
+    BOOL
+
+API:KERNEL32.dll:BuildCommDCBA
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:BuildCommDCBAndTimeoutsA
+    LPSTR
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:BuildCommDCBAndTimeoutsW
+    LPWSTR
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:BuildCommDCBW
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:CallNamedPipeA
+    LPSTR
+    LPDATA
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:CallNamedPipeW
+    LPWSTR
+    LPDATA
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:ClearCommBreak
+    HANDLE
+
+API:KERNEL32.dll:ClearCommError
+    HANDLE
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:CloseHandle
+    HANDLE
+
+API:KERNEL32.dll:CloseProfileUserMapping
+API:KERNEL32.dll:CompareFileTime
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:CompareStringW
+API:KERNEL32.dll:ConnectNamedPipe
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:ContinueDebugEvent
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:CopyFileA
+    LPSTR
+    LPSTR
+    BOOL
+
+API:KERNEL32.dll:CopyFileW
+    LPWSTR
+    LPWSTR
+    BOOL
+
+API:KERNEL32.dll:CreateConsoleScreenBuffer
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:CreateDirectoryA
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:CreateDirectoryExA
+    LPSTR
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:CreateDirectoryExW
+    LPWSTR
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:CreateDirectoryW
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:CreateEventA
+    LPDATA
+    BOOL
+    BOOL
+    LPSTR
+
+API:KERNEL32.dll:CreateEventW
+    LPDATA
+    BOOL
+    BOOL
+    LPWSTR
+
+API:KERNEL32.dll:CreateFileA
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+    DWORD
+    HANDLE
+
+API:KERNEL32.dll:CreateFileMappingA
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:CreateFileMappingW
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:CreateFileW
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+    DWORD
+    HANDLE
+
+API:KERNEL32.dll:CreateMailslotA
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:CreateMailslotW
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:CreateMutexA
+    LPDATA
+    BOOL
+    LPSTR
+
+API:KERNEL32.dll:CreateMutexW
+    LPDATA
+    BOOL
+    LPWSTR
+
+API:KERNEL32.dll:CreateNamedPipeA
+    LPSTR
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:CreateNamedPipeW
+    LPWSTR
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:CreatePipe
+    LPDATA
+    LPDATA
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:CreateProcessA
+    LPSTR
+    LPSTR
+    LPDATA
+    LPDATA
+    BOOL
+    DWORD
+    LPDATA
+    LPSTR
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:CreateProcessW
+    LPWSTR
+    LPWSTR
+    LPDATA
+    LPDATA
+    BOOL
+    DWORD
+    LPDATA
+    LPWSTR
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:CreateRemoteThread
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:CreateSemaphoreA
+    LPDATA
+    DWORD
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:CreateSemaphoreW
+    LPDATA
+    DWORD
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:CreateTapePartition
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:CreateThread
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:DebugActiveProcess
+    DWORD
+
+API:KERNEL32.dll:DebugBreak
+    VOID
+
+API:KERNEL32.dll:DefineDosDeviceA
+    DWORD
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:DefineDosDeviceW
+    DWORD
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:DeleteAtom
+    WORD
+
+API:KERNEL32.dll:DeleteCriticalSection
+    LPDATA
+
+API:KERNEL32.dll:DeleteFileA
+    LPSTR
+
+API:KERNEL32.dll:DeleteFileW
+    LPWSTR
+
+API:KERNEL32.dll:DeviceIoControl
+    HANDLE
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:DisconnectNamedPipe
+    HANDLE
+
+API:KERNEL32.dll:DosDateTimeToFileTime
+    WORD
+    WORD
+    LPDATA
+
+API:KERNEL32.dll:DuplicateHandle
+    HANDLE
+    HANDLE
+    HANDLE
+    LPDATA
+    DWORD
+    BOOL
+    DWORD
+
+API:KERNEL32.dll:EndUpdateResourceA
+    HANDLE
+    BOOL
+
+API:KERNEL32.dll:EndUpdateResourceW
+    HANDLE
+    BOOL
+
+API:KERNEL32.dll:EnterCriticalSection
+    LPDATA
+
+API:KERNEL32.dll:EnumResourceLanguagesA
+    HANDLE
+    LPSTR
+    LPSTR
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:EnumResourceLanguagesW
+    HANDLE
+    LPWSTR
+    LPWSTR
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:EnumResourceNamesA
+    HANDLE
+    LPSTR
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:EnumResourceNamesW
+    HANDLE
+    LPWSTR
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:EnumResourceTypesA
+    HANDLE
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:EnumResourceTypesW
+    HANDLE
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:EraseTape
+    HANDLE
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:EscapeCommFunction
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:ExitProcess
+    DWORD
+
+API:KERNEL32.dll:ExitThread
+    DWORD
+
+API:KERNEL32.dll:ExpandEnvironmentStringsA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:ExpandEnvironmentStringsW
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:FatalAppExitA
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:FatalAppExitW
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:FatalExit
+    DWORD
+
+API:KERNEL32.dll:FileTimeToDosDateTime
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:FileTimeToLocalFileTime
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:FileTimeToSystemTime
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:FillConsoleOutputAttribute
+    HANDLE
+    WORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:FillConsoleOutputCharacterA
+    HANDLE
+    BYTE
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:FillConsoleOutputCharacterW
+    HANDLE
+    WORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:FindAtomA
+    LPSTR
+
+API:KERNEL32.dll:FindAtomW
+    LPWSTR
+
+API:KERNEL32.dll:FindClose
+    HANDLE
+
+API:KERNEL32.dll:FindCloseChangeNotification
+    HANDLE
+
+API:KERNEL32.dll:FindFirstChangeNotificationA
+    LPSTR
+    BOOL
+    DWORD
+
+API:KERNEL32.dll:FindFirstChangeNotificationW
+    LPWSTR
+    BOOL
+    DWORD
+
+API:KERNEL32.dll:FindFirstFileA
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:FindFirstFileW
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:FindNextChangeNotification
+    HANDLE
+
+API:KERNEL32.dll:FindNextFileA
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:FindNextFileW
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:FindResourceA
+    HANDLE
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:FindResourceExA
+    HANDLE
+    LPSTR
+    LPSTR
+    WORD
+
+API:KERNEL32.dll:FindResourceExW
+    HANDLE
+    LPWSTR
+    LPWSTR
+    WORD
+
+API:KERNEL32.dll:FindResourceW
+    HANDLE
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:FlushConsoleInputBuffer
+    HANDLE
+
+API:KERNEL32.dll:FlushFileBuffers
+    HANDLE
+
+API:KERNEL32.dll:FlushInstructionCache
+    HANDLE
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:FlushViewOfFile
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:FoldStringW
+API:KERNEL32.dll:FormatMessageA
+    DWORD
+    LPDATA
+    DWORD
+    DWORD
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:FormatMessageW
+    DWORD
+    LPDATA
+    DWORD
+    DWORD
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:FreeConsole
+    VOID
+
+API:KERNEL32.dll:FreeLibrary
+    HANDLE
+
+API:KERNEL32.dll:FreeResource
+    HANDLE
+
+API:KERNEL32.dll:GenerateConsoleCtrlEvent
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:GetACP
+API:KERNEL32.dll:GetAtomNameA
+    WORD
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetAtomNameW
+    WORD
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetCPInfo
+API:KERNEL32.dll:GetCommMask
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetCommModemStatus
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetCommProperties
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetCommState
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetCommTimeouts
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetCommandLineA
+    VOID
+
+API:KERNEL32.dll:GetCommandLineW
+    VOID
+
+API:KERNEL32.dll:GetComputerNameA
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:GetComputerNameW
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:GetConsoleCP
+    VOID
+
+API:KERNEL32.dll:GetConsoleCursorInfo
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetConsoleMode
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetConsoleOutputCP
+    VOID
+
+API:KERNEL32.dll:GetConsoleScreenBufferInfo
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetConsoleTitleA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetConsoleTitleW
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetCurrentDirectoryA
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetCurrentDirectoryW
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetCurrentProcess
+    VOID
+
+API:KERNEL32.dll:GetCurrentProcessId
+    VOID
+
+API:KERNEL32.dll:GetCurrentThread
+    VOID
+
+API:KERNEL32.dll:GetCurrentThreadId
+    VOID
+
+API:KERNEL32.dll:GetDateFormatW
+API:KERNEL32.dll:GetDiskFreeSpaceA
+    LPSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetDiskFreeSpaceW
+    LPWSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetDriveTypeA
+    LPSTR
+
+API:KERNEL32.dll:GetDriveTypeW
+    LPWSTR
+
+API:KERNEL32.dll:GetEnvironmentStrings
+    VOID
+
+API:KERNEL32.dll:GetEnvironmentVariableA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetEnvironmentVariableW
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetExitCodeProcess
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetExitCodeThread
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetFileAttributesA
+    LPSTR
+
+API:KERNEL32.dll:GetFileAttributesW
+    LPWSTR
+
+API:KERNEL32.dll:GetFileInformationByHandle
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetFileSize
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetFileTime
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetFileType
+    HANDLE
+
+API:KERNEL32.dll:GetFullPathNameA
+    LPSTR
+    DWORD
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:GetFullPathNameW
+    LPWSTR
+    DWORD
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:GetLargestConsoleWindowSize
+    HANDLE
+
+API:KERNEL32.dll:GetLastError
+    VOID
+
+API:KERNEL32.dll:GetLocalTime
+    LPDATA
+
+API:KERNEL32.dll:GetLocaleInfoW
+API:KERNEL32.dll:GetLogicalDriveStringsA
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetLogicalDriveStringsW
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetLogicalDrives
+    VOID
+
+API:KERNEL32.dll:GetMailslotInfo
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetModuleFileNameA
+    HANDLE
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetModuleFileNameW
+    HANDLE
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetModuleHandleA
+    LPSTR
+
+API:KERNEL32.dll:GetModuleHandleW
+    LPWSTR
+
+API:KERNEL32.dll:GetNamedPipeHandleStateA
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetNamedPipeHandleStateW
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetNamedPipeInfo
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetNumberOfConsoleInputEvents
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetNumberOfConsoleMouseButtons
+    LPDATA
+
+API:KERNEL32.dll:GetOEMCP
+API:KERNEL32.dll:GetOverlappedResult
+    HANDLE
+    LPDATA
+    LPDATA
+    BOOL
+
+API:KERNEL32.dll:GetPriorityClass
+    HANDLE
+
+API:KERNEL32.dll:GetPrivateProfileIntA
+    LPSTR
+    LPSTR
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetPrivateProfileIntW
+    LPWSTR
+    LPWSTR
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetPrivateProfileSectionA
+    LPSTR
+    LPSTR
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetPrivateProfileSectionW
+    LPWSTR
+    LPWSTR
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetPrivateProfileStringA
+    LPSTR
+    LPSTR
+    LPSTR
+    LPSTR
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetPrivateProfileStringW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetProcAddress
+    HANDLE
+    LPSTR
+
+API:KERNEL32.dll:GetProcessHeap
+    VOID
+
+API:KERNEL32.dll:GetProcessShutdownParameters
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetProcessTimes
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetProfileIntA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetProfileIntW
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetProfileSectionA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetProfileSectionW
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetProfileStringA
+    LPSTR
+    LPSTR
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetProfileStringW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetStartupInfoA
+    LPDATA
+
+API:KERNEL32.dll:GetStartupInfoW
+    LPDATA
+
+API:KERNEL32.dll:GetStdHandle
+    DWORD
+
+API:KERNEL32.dll:GetStringTypeW
+API:KERNEL32.dll:GetSystemDefaultLCID
+API:KERNEL32.dll:GetSystemDefaultLangID
+API:KERNEL32.dll:GetSystemDirectoryA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetSystemDirectoryW
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetSystemInfo
+    LPDATA
+
+API:KERNEL32.dll:GetSystemTime
+    LPDATA
+
+API:KERNEL32.dll:GetTapeParameters
+    HANDLE
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetTapePosition
+    HANDLE
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetTapeStatus
+    HANDLE
+
+API:KERNEL32.dll:GetTempFileNameA
+    LPSTR
+    LPSTR
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetTempFileNameW
+    LPWSTR
+    LPWSTR
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetTempPathA
+    DWORD
+    LPSTR
+
+API:KERNEL32.dll:GetTempPathW
+    DWORD
+    LPWSTR
+
+API:KERNEL32.dll:GetThreadContext
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:GetThreadLocale
+API:KERNEL32.dll:GetThreadPriority
+    HANDLE
+
+API:KERNEL32.dll:GetThreadSelectorEntry
+    HANDLE
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:GetThreadTimes
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:GetTickCount
+    VOID
+
+API:KERNEL32.dll:GetTimeFormatW
+API:KERNEL32.dll:GetTimeZoneInformation
+    LPDATA
+
+API:KERNEL32.dll:GetUserDefaultLCID
+API:KERNEL32.dll:GetUserDefaultLangID
+API:KERNEL32.dll:GetVersion
+    VOID
+
+API:KERNEL32.dll:GetVolumeInformationA
+    LPSTR
+    LPSTR
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetVolumeInformationW
+    LPWSTR
+    LPWSTR
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GetWindowsDirectoryA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GetWindowsDirectoryW
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GlobalAddAtomA
+    LPSTR
+
+API:KERNEL32.dll:GlobalAddAtomW
+    LPWSTR
+
+API:KERNEL32.dll:GlobalAlloc
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:GlobalCompact
+    DWORD
+
+API:KERNEL32.dll:GlobalDeleteAtom
+    WORD
+
+API:KERNEL32.dll:GlobalFindAtomA
+    LPSTR
+
+API:KERNEL32.dll:GlobalFindAtomW
+    LPWSTR
+
+API:KERNEL32.dll:GlobalFix
+    HANDLE
+
+API:KERNEL32.dll:GlobalFlags
+    HANDLE
+
+API:KERNEL32.dll:GlobalFree
+    HANDLE
+
+API:KERNEL32.dll:GlobalGetAtomNameA
+    WORD
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:GlobalGetAtomNameW
+    WORD
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:GlobalHandle
+    LPDATA
+
+API:KERNEL32.dll:GlobalLock
+    HANDLE
+
+API:KERNEL32.dll:GlobalMemoryStatus
+    LPDATA
+
+API:KERNEL32.dll:GlobalReAlloc
+    HANDLE
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:GlobalSize
+    HANDLE
+
+API:KERNEL32.dll:GlobalUnWire
+    HANDLE
+
+API:KERNEL32.dll:GlobalUnfix
+    HANDLE
+
+API:KERNEL32.dll:GlobalUnlock
+    HANDLE
+
+API:KERNEL32.dll:GlobalWire
+    HANDLE
+
+API:KERNEL32.dll:HeapAlloc
+    HANDLE
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:HeapCreate
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:HeapDestroy
+    HANDLE
+
+API:KERNEL32.dll:HeapFree
+    HANDLE
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:HeapReAlloc
+    HANDLE
+    DWORD
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:HeapSize
+    HANDLE
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:InitAtomTable
+    DWORD
+
+API:KERNEL32.dll:InitializeCriticalSection
+    LPDATA
+
+API:KERNEL32.dll:InterlockedDecrement
+    LPDATA
+
+API:KERNEL32.dll:InterlockedExchange
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:InterlockedIncrement
+    LPDATA
+
+API:KERNEL32.dll:IsBadCodePtr
+    LPDATA
+
+API:KERNEL32.dll:IsBadHugeReadPtr
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:IsBadHugeWritePtr
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:IsBadReadPtr
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:IsBadStringPtrA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:IsBadStringPtrW
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:IsBadWritePtr
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:IsDBCSLeadByte
+API:KERNEL32.dll:IsValidCodePage
+API:KERNEL32.dll:LCMapStringW
+API:KERNEL32.dll:LeaveCriticalSection
+    LPDATA
+
+API:KERNEL32.dll:LoadLibraryA
+    LPSTR
+
+API:KERNEL32.dll:LoadLibraryExA
+    LPSTR
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:LoadLibraryExW
+    LPWSTR
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:LoadLibraryW
+    LPWSTR
+
+API:KERNEL32.dll:LoadModule
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:LoadResource
+    HANDLE
+    HANDLE
+
+API:KERNEL32.dll:LocalAlloc
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:LocalCompact
+    DWORD
+
+API:KERNEL32.dll:LocalFileTimeToFileTime
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:LocalFlags
+    HANDLE
+
+API:KERNEL32.dll:LocalFree
+    HANDLE
+
+API:KERNEL32.dll:LocalHandle
+    LPDATA
+
+API:KERNEL32.dll:LocalLock
+    HANDLE
+
+API:KERNEL32.dll:LocalReAlloc
+    HANDLE
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:LocalShrink
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:LocalSize
+    HANDLE
+
+API:KERNEL32.dll:LocalUnlock
+    HANDLE
+
+API:KERNEL32.dll:LockFile
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:LockFileEx
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:LockResource
+    HANDLE
+
+API:KERNEL32.dll:MapViewOfFile
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:MapViewOfFileEx
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:MoveFileA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:MoveFileExA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:MoveFileExW
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:MoveFileW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:MulDiv
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:MultiByteToWideChar
+API:KERNEL32.dll:OpenEventA
+    DWORD
+    BOOL
+    LPSTR
+
+API:KERNEL32.dll:OpenEventW
+    DWORD
+    BOOL
+    LPWSTR
+
+API:KERNEL32.dll:OpenFile
+    LPSTR
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:OpenFileMappingA
+    DWORD
+    BOOL
+    LPSTR
+
+API:KERNEL32.dll:OpenFileMappingW
+    DWORD
+    BOOL
+    LPWSTR
+
+API:KERNEL32.dll:OpenMutexA
+    DWORD
+    BOOL
+    LPSTR
+
+API:KERNEL32.dll:OpenMutexW
+    DWORD
+    BOOL
+    LPWSTR
+
+API:KERNEL32.dll:OpenProcess
+    DWORD
+    BOOL
+    DWORD
+
+API:KERNEL32.dll:OpenProfileUserMapping
+API:KERNEL32.dll:OpenSemaphoreA
+    DWORD
+    BOOL
+    LPSTR
+
+API:KERNEL32.dll:OpenSemaphoreW
+    DWORD
+    BOOL
+    LPWSTR
+
+API:KERNEL32.dll:OutputDebugStringA
+    LPSTR
+
+API:KERNEL32.dll:OutputDebugStringW
+    LPWSTR
+
+API:KERNEL32.dll:PeekConsoleInputA
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:PeekConsoleInputW
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:PeekNamedPipe
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:PrepareTape
+    HANDLE
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:PulseEvent
+    HANDLE
+
+API:KERNEL32.dll:PurgeComm
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:QueryDosDeviceA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:QueryDosDeviceW
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:QueryPerformanceCounter
+    LPDATA
+
+API:KERNEL32.dll:QueryPerformanceFrequency
+    LPDATA
+
+API:KERNEL32.dll:RaiseException
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleA
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleInputA
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleInputW
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleOutputA
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleOutputAttribute
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleOutputCharacterA
+    HANDLE
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleOutputCharacterW
+    HANDLE
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleOutputW
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReadConsoleW
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:ReadFile
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:ReadFileEx
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:ReadProcessMemory
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ReleaseMutex
+    HANDLE
+
+API:KERNEL32.dll:ReleaseSemaphore
+    HANDLE
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:RemoveDirectoryA
+    LPSTR
+
+API:KERNEL32.dll:RemoveDirectoryW
+    LPWSTR
+
+API:KERNEL32.dll:ResetEvent
+    HANDLE
+
+API:KERNEL32.dll:ResumeThread
+    HANDLE
+
+API:KERNEL32.dll:RtlMoveMemory
+API:KERNEL32.dll:RtlUnwind
+API:KERNEL32.dll:RtlZeroMemory
+API:KERNEL32.dll:ScrollConsoleScreenBufferA
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:ScrollConsoleScreenBufferW
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:SearchPathA
+    LPSTR
+    LPSTR
+    LPSTR
+    DWORD
+    LPSTR
+    LPDATA
+
+API:KERNEL32.dll:SearchPathW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    DWORD
+    LPWSTR
+    LPDATA
+
+API:KERNEL32.dll:SetCommBreak
+    HANDLE
+
+API:KERNEL32.dll:SetCommMask
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetCommState
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:SetCommTimeouts
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:SetComputerNameA
+API:KERNEL32.dll:SetComputerNameW
+API:KERNEL32.dll:SetConsoleActiveScreenBuffer
+    HANDLE
+
+API:KERNEL32.dll:SetConsoleCP
+    DWORD
+
+API:KERNEL32.dll:SetConsoleCtrlHandler
+    LPDATA
+    BOOL
+
+API:KERNEL32.dll:SetConsoleCursorInfo
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:SetConsoleCursorPosition
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetConsoleMode
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetConsoleOutputCP
+    DWORD
+
+API:KERNEL32.dll:SetConsoleScreenBufferSize
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetConsoleTextAttribute
+    HANDLE
+    WORD
+
+API:KERNEL32.dll:SetConsoleTitleA
+    LPSTR
+
+API:KERNEL32.dll:SetConsoleTitleW
+    LPWSTR
+
+API:KERNEL32.dll:SetConsoleWindowInfo
+    HANDLE
+    BOOL
+    LPDATA
+
+API:KERNEL32.dll:SetCurrentDirectoryA
+    LPSTR
+
+API:KERNEL32.dll:SetCurrentDirectoryW
+    LPWSTR
+
+API:KERNEL32.dll:SetEndOfFile
+    HANDLE
+
+API:KERNEL32.dll:SetEnvironmentVariableA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:SetEnvironmentVariableW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:SetErrorMode
+    DWORD
+
+API:KERNEL32.dll:SetEvent
+    HANDLE
+
+API:KERNEL32.dll:SetFileApisToOEM
+    VOID
+
+API:KERNEL32.dll:SetFileAttributesA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:SetFileAttributesW
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:SetFilePointer
+    HANDLE
+    DWORD
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:SetFileTime
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:SetHandleCount
+    DWORD
+
+API:KERNEL32.dll:SetLastError
+    DWORD
+
+API:KERNEL32.dll:SetLocalTime
+    LPDATA
+
+API:KERNEL32.dll:SetMailslotInfo
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetNamedPipeHandleState
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:SetPriorityClass
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetProcessShutdownParameters
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:SetStdHandle
+    DWORD
+    HANDLE
+
+API:KERNEL32.dll:SetSystemTime
+    LPDATA
+
+API:KERNEL32.dll:SetTapeParameters
+    HANDLE
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:SetTapePosition
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:SetThreadContext
+    HANDLE
+    LPDATA
+
+API:KERNEL32.dll:SetThreadLocale
+API:KERNEL32.dll:SetThreadPriority
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:SetTimeZoneInformation
+    LPDATA
+
+API:KERNEL32.dll:SetUnhandledExceptionFilter
+    LPDATA
+
+API:KERNEL32.dll:SetVolumeLabelA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:SetVolumeLabelW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:SetupComm
+    HANDLE
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:SizeofResource
+    HANDLE
+    HANDLE
+
+API:KERNEL32.dll:Sleep
+    DWORD
+
+API:KERNEL32.dll:SleepEx
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:SuspendThread
+    HANDLE
+
+API:KERNEL32.dll:SystemTimeToFileTime
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:TerminateProcess
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:TerminateThread
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:TlsAlloc
+    VOID
+
+API:KERNEL32.dll:TlsFree
+    DWORD
+
+API:KERNEL32.dll:TlsGetValue
+    DWORD
+
+API:KERNEL32.dll:TlsSetValue
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:TransactNamedPipe
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:TransmitCommChar
+    HANDLE
+    BYTE
+
+API:KERNEL32.dll:UnhandledExceptionFilter
+    LPDATA
+
+API:KERNEL32.dll:UnlockFile
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:UnlockFileEx
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:UnmapViewOfFile
+    LPDATA
+
+API:KERNEL32.dll:UpdateResourceA
+    HANDLE
+    LPSTR
+    LPSTR
+    WORD
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:UpdateResourceW
+    HANDLE
+    LPWSTR
+    LPWSTR
+    WORD
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:VerLanguageNameA
+API:KERNEL32.dll:VerLanguageNameW
+API:KERNEL32.dll:VirtualAlloc
+    LPDATA
+    DWORD
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:VirtualFree
+    LPDATA
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:VirtualLock
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:VirtualProtect
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:VirtualProtectEx
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:VirtualQuery
+    LPDATA
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:VirtualQueryEx
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:VirtualUnlock
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:WaitCommEvent
+    HANDLE
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:WaitForDebugEvent
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:WaitForMultipleObjects
+    DWORD
+    LPDATA
+    BOOL
+    DWORD
+
+API:KERNEL32.dll:WaitForMultipleObjectsEx
+    DWORD
+    LPDATA
+    BOOL
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:WaitForSingleObject
+    HANDLE
+    DWORD
+
+API:KERNEL32.dll:WaitForSingleObjectEx
+    HANDLE
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:WaitNamedPipeA
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:WaitNamedPipeW
+    LPWSTR
+    DWORD
+
+API:KERNEL32.dll:WideCharToMultiByte
+API:KERNEL32.dll:WinExec
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:WriteConsoleA
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleInputA
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleInputW
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleOutputA
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleOutputAttribute
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleOutputCharacterA
+    HANDLE
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleOutputCharacterW
+    HANDLE
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleOutputW
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteConsoleW
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:WriteFile
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:WriteFileEx
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:KERNEL32.dll:WritePrivateProfileSectionA
+    LPSTR
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:WritePrivateProfileSectionW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:WritePrivateProfileStringA
+    LPSTR
+    LPSTR
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:WritePrivateProfileStringW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:WriteProcessMemory
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:KERNEL32.dll:WriteProfileSectionA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:WriteProfileSectionW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:WriteProfileStringA
+    LPSTR
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:WriteProfileStringW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:WriteTapemark
+    HANDLE
+    DWORD
+    DWORD
+    BOOL
+
+API:KERNEL32.dll:_hread
+    HANDLE
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:_hwrite
+    HANDLE
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:_lclose
+    HANDLE
+
+API:KERNEL32.dll:_lcreat
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:_llseek
+    HANDLE
+    DWORD
+    DWORD
+
+API:KERNEL32.dll:_lopen
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:_lread
+    HANDLE
+    LPDATA
+    DWORD
+
+API:KERNEL32.dll:_lwrite
+    HANDLE
+    LPSTR
+    DWORD
+
+API:KERNEL32.dll:lstrcatA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:lstrcatW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:lstrcmpA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:lstrcmpW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:lstrcmpiA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:lstrcmpiW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:lstrcpyA
+    LPSTR
+    LPSTR
+
+API:KERNEL32.dll:lstrcpyW
+    LPWSTR
+    LPWSTR
+
+API:KERNEL32.dll:lstrlenA
+    LPSTR
+
+API:KERNEL32.dll:lstrlenW
+    LPWSTR
+
+API:ADVAPI32.dll:RegCloseKey
+    HANDLE
+
+API:ADVAPI32.dll:RegConnectRegistryA
+    LPSTR
+    HANDLE
+    LPDATA
+
+API:ADVAPI32.dll:RegConnectRegistryW
+    LPWSTR
+    HANDLE
+    LPDATA
+
+API:ADVAPI32.dll:RegCreateKeyA
+    HANDLE
+    LPSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegCreateKeyW
+    HANDLE
+    LPWSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegCreateKeyExA
+    HANDLE
+    LPSTR
+    DWORD
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegCreateKeyExW
+    HANDLE
+    LPWSTR
+    DWORD
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegDeleteKeyA
+    HANDLE
+    LPSTR
+
+API:ADVAPI32.dll:RegDeleteKeyW
+    HANDLE
+    LPWSTR
+
+API:ADVAPI32.dll:RegDeleteValueA
+    HANDLE
+    LPSTR
+
+API:ADVAPI32.dll:RegDeleteValueW
+    HANDLE
+    LPWSTR
+
+API:ADVAPI32.dll:RegEnumKeyA
+    HANDLE
+    DWORD
+    LPSTR
+    DWORD
+
+API:ADVAPI32.dll:RegEnumKeyW
+    HANDLE
+    DWORD
+    LPWSTR
+    DWORD
+
+API:ADVAPI32.dll:RegEnumKeyExA
+    HANDLE
+    DWORD
+    LPSTR
+    LPDATA
+    LPDATA
+    LPSTR
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegEnumKeyExW
+    HANDLE
+    DWORD
+    LPWSTR
+    LPDATA
+    LPDATA
+    LPWSTR
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegEnumValueA
+    HANDLE
+    DWORD
+    LPSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegEnumValueW
+    HANDLE
+    DWORD
+    LPWSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegFlushKey
+    HANDLE
+
+API:ADVAPI32.dll:RegGetKeySecurity
+    HANDLE
+    DWORD
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegLoadKeyA
+    HANDLE
+    LPSTR
+    LPSTR
+
+API:ADVAPI32.dll:RegLoadKeyW
+    HANDLE
+    LPWSTR
+    LPWSTR
+
+API:ADVAPI32.dll:RegNotifyChangeKeyValue
+    HANDLE
+    BOOL
+    DWORD
+    HANDLE
+    BOOL
+
+API:ADVAPI32.dll:RegOpenKeyA
+    HANDLE
+    LPSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegOpenKeyW
+    HANDLE
+    LPWSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegOpenKeyExA
+    HANDLE
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:ADVAPI32.dll:RegOpenKeyExW
+    HANDLE
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryInfoKeyA
+    HANDLE
+    LPSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryInfoKeyW
+    HANDLE
+    LPWSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryValueA
+    HANDLE
+    LPSTR
+    LPSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryValueW
+    HANDLE
+    LPWSTR
+    LPWSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryMultipleValuesA
+    HANDLE
+    LPDATA
+    DWORD
+    LPSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryMultipleValuesW
+    HANDLE
+    LPDATA
+    DWORD
+    LPWSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryValueExA
+    HANDLE
+    LPSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegQueryValueExW
+    HANDLE
+    LPWSTR
+    LPDATA
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:ADVAPI32.dll:RegReplaceKeyA
+    HANDLE
+    LPSTR
+    LPSTR
+    LPSTR
+
+API:ADVAPI32.dll:RegReplaceKeyW
+    HANDLE
+    LPWSTR
+    LPWSTR
+    LPWSTR
+
+API:ADVAPI32.dll:RegRestoreKeyA
+    HANDLE
+    LPSTR
+    DWORD
+
+API:ADVAPI32.dll:RegRestoreKeyW
+    HANDLE
+    LPWSTR
+    DWORD
+
+API:ADVAPI32.dll:RegSaveKeyA
+    HANDLE
+    LPSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegSaveKeyW
+    HANDLE
+    LPWSTR
+    LPDATA
+
+API:ADVAPI32.dll:RegSetKeySecurity
+    HANDLE
+    DWORD
+    LPDATA
+
+API:ADVAPI32.dll:RegSetValueA
+    HANDLE
+    LPSTR
+    DWORD
+    LPSTR
+    DWORD
+
+API:ADVAPI32.dll:RegSetValueW
+    HANDLE
+    LPWSTR
+    DWORD
+    LPWSTR
+    DWORD
+
+API:ADVAPI32.dll:RegSetValueExA
+    HANDLE
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:ADVAPI32.dll:RegSetValueExW
+    HANDLE
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:ADVAPI32.dll:RegUnLoadKeyA
+    HANDLE
+    LPSTR
+
+API:ADVAPI32.dll:RegUnLoadKeyW
+    HANDLE
+    LPWSTR
+
+API:comdlg32.dll:ChooseColorA
+    LPDATA
+
+API:comdlg32.dll:ChooseColorW
+    LPDATA
+
+API:comdlg32.dll:ChooseFontA
+    LPDATA
+
+API:comdlg32.dll:ChooseFontW
+    LPDATA
+
+API:comdlg32.dll:CommDlgExtendedError
+    VOID
+
+API:comdlg32.dll:FindTextA
+    LPDATA
+
+API:comdlg32.dll:FindTextW
+    LPDATA
+
+API:comdlg32.dll:GetFileTitleA
+    LPSTR
+    LPSTR
+    WORD
+
+API:comdlg32.dll:GetFileTitleW
+    LPWSTR
+    LPWSTR
+    WORD
+
+API:comdlg32.dll:GetOpenFileNameA
+    LPDATA
+
+API:comdlg32.dll:GetOpenFileNameW
+    LPDATA
+
+API:comdlg32.dll:GetSaveFileNameA
+    LPDATA
+
+API:comdlg32.dll:GetSaveFileNameW
+    LPDATA
+
+API:comdlg32.dll:PrintDlgA
+    LPDATA
+
+API:comdlg32.dll:PrintDlgW
+    LPDATA
+
+API:comdlg32.dll:ReplaceTextA
+    LPDATA
+
+API:comdlg32.dll:ReplaceTextW
+    LPDATA
+
+API:GDI32.dll:AbortDoc
+    HANDLE
+
+API:GDI32.dll:AbortPath
+    HANDLE
+
+API:GDI32.dll:AddFontResourceA
+    LPSTR
+
+API:GDI32.dll:AddFontResourceW
+    LPWSTR
+
+API:GDI32.dll:AngleArc
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:AnimatePalette
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:Arc
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:ArcTo
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:BeginPath
+    HANDLE
+
+API:GDI32.dll:BitBlt
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:CancelDC
+    HANDLE
+
+API:GDI32.dll:Chord
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:CloseEnhMetaFile
+    HANDLE
+
+API:GDI32.dll:CloseFigure
+    HANDLE
+
+API:GDI32.dll:CloseMetaFile
+    HANDLE
+
+API:GDI32.dll:CombineRgn
+    HANDLE
+    HANDLE
+    HANDLE
+    DWORD
+
+API:GDI32.dll:CombineTransform
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:CopyEnhMetaFileA
+    HANDLE
+    LPSTR
+
+API:GDI32.dll:CopyEnhMetaFileW
+    HANDLE
+    LPWSTR
+
+API:GDI32.dll:CopyMetaFileA
+    HANDLE
+    LPSTR
+
+API:GDI32.dll:CopyMetaFileW
+    HANDLE
+    LPWSTR
+
+API:GDI32.dll:CreateBitmap
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:CreateBitmapIndirect
+    LPDATA
+
+API:GDI32.dll:CreateBrushIndirect
+    LPDATA
+
+API:GDI32.dll:CreateCompatibleBitmap
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateCompatibleDC
+    HANDLE
+
+API:GDI32.dll:CreateDCA
+    LPSTR
+    LPSTR
+    LPSTR
+    LPDATA
+
+API:GDI32.dll:CreateDCW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    LPDATA
+
+API:GDI32.dll:CreateDIBPatternBrush
+    HANDLE
+    DWORD
+
+API:GDI32.dll:CreateDIBPatternBrushPt
+    LPDATA
+    DWORD
+
+API:GDI32.dll:CreateDIBitmap
+    HANDLE
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:CreateDiscardableBitmap
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateEllipticRgn
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateEllipticRgnIndirect
+    LPDATA
+
+API:GDI32.dll:CreateEnhMetaFileA
+    HANDLE
+    LPSTR
+    LPDATA
+    LPSTR
+
+API:GDI32.dll:CreateEnhMetaFileW
+    HANDLE
+    LPWSTR
+    LPDATA
+    LPWSTR
+
+API:GDI32.dll:CreateFontA
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPSTR
+
+API:GDI32.dll:CreateFontIndirectA
+    LPDATA
+
+API:GDI32.dll:CreateFontIndirectW
+    LPDATA
+
+API:GDI32.dll:CreateFontW
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPWSTR
+
+API:GDI32.dll:CreateHalftonePalette
+    HANDLE
+
+API:GDI32.dll:CreateHatchBrush
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateICA
+    LPSTR
+    LPSTR
+    LPSTR
+    LPDATA
+
+API:GDI32.dll:CreateICW
+    LPWSTR
+    LPWSTR
+    LPWSTR
+    LPDATA
+
+API:GDI32.dll:CreateMetaFileA
+    LPSTR
+
+API:GDI32.dll:CreateMetaFileW
+    LPWSTR
+
+API:GDI32.dll:CreatePalette
+    LPDATA
+
+API:GDI32.dll:CreatePatternBrush
+    HANDLE
+
+API:GDI32.dll:CreatePen
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreatePenIndirect
+    LPDATA
+
+API:GDI32.dll:CreatePolyPolygonRgn
+    LPDATA
+    LPDATA
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreatePolygonRgn
+    LPDATA
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateRectRgn
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateRectRgnIndirect
+    LPDATA
+
+API:GDI32.dll:CreateRoundRectRgn
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:CreateScalableFontResourceA
+    DWORD
+    LPSTR
+    LPSTR
+    LPSTR
+
+API:GDI32.dll:CreateScalableFontResourceW
+    DWORD
+    LPWSTR
+    LPWSTR
+    LPWSTR
+
+API:GDI32.dll:CreateSolidBrush
+    DWORD
+
+API:GDI32.dll:DPtoLP
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:DeleteDC
+    HANDLE
+
+API:GDI32.dll:DeleteEnhMetaFile
+    HANDLE
+
+API:GDI32.dll:DeleteMetaFile
+    HANDLE
+
+API:GDI32.dll:DeleteObject
+    HANDLE
+
+API:GDI32.dll:DeviceCapabilitiesExA
+API:GDI32.dll:DeviceCapabilitiesExW
+API:GDI32.dll:DrawEscape
+    HANDLE
+    DWORD
+    DWORD
+    LPSTR
+
+API:GDI32.dll:Ellipse
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:EndDoc
+    HANDLE
+
+API:GDI32.dll:EndPage
+    HANDLE
+
+API:GDI32.dll:EndPath
+    HANDLE
+
+API:GDI32.dll:EnumEnhMetaFile
+    HANDLE
+    HANDLE
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EnumFontFamiliesA
+    HANDLE
+    LPSTR
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EnumFontFamiliesW
+    HANDLE
+    LPWSTR
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EnumFontsA
+    HANDLE
+    LPSTR
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EnumFontsW
+    HANDLE
+    LPWSTR
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EnumMetaFile
+    HANDLE
+    HANDLE
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EnumObjects
+    HANDLE
+    DWORD
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:EqualRgn
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:Escape
+    HANDLE
+    DWORD
+    DWORD
+    LPSTR
+    LPDATA
+
+API:GDI32.dll:ExcludeClipRect
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:ExtCreatePen
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+
+API:GDI32.dll:ExtCreateRegion
+    LPDATA
+    DWORD
+    LPDATA
+
+API:GDI32.dll:ExtEscape
+    HANDLE
+    DWORD
+    DWORD
+    LPSTR
+    DWORD
+    LPSTR
+
+API:GDI32.dll:ExtFloodFill
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:ExtSelectClipRgn
+    HANDLE
+    HANDLE
+    DWORD
+
+API:GDI32.dll:ExtTextOutA
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    LPSTR
+    DWORD
+    LPDATA
+
+API:GDI32.dll:ExtTextOutW
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    LPWSTR
+    DWORD
+    LPDATA
+
+API:GDI32.dll:FillPath
+    HANDLE
+
+API:GDI32.dll:FillRgn
+    HANDLE
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:FixBrushOrgEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:FlattenPath
+    HANDLE
+
+API:GDI32.dll:FloodFill
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:FrameRgn
+    HANDLE
+    HANDLE
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:GdiComment
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GdiFlush
+    VOID
+
+API:GDI32.dll:GdiGetBatchLimit
+    VOID
+
+API:GDI32.dll:GdiSetBatchLimit
+    DWORD
+
+API:GDI32.dll:GetArcDirection
+    HANDLE
+
+API:GDI32.dll:GetAspectRatioFilterEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetBitmapBits
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetBitmapDimensionEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetBkColor
+    HANDLE
+
+API:GDI32.dll:GetBkMode
+    HANDLE
+
+API:GDI32.dll:GetBoundsRect
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:GetBrushOrgEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetCharABCWidthsA
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharABCWidthsFloatA
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharABCWidthsFloatW
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharABCWidthsW
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharWidth32A
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharWidth32W
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharWidthA
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharWidthFloatA
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharWidthFloatW
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetCharWidthW
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetClipBox
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetClipRgn
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:GetColorAdjustment
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetCurrentObject
+    HANDLE
+    DWORD
+
+API:GDI32.dll:GetCurrentPositionEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetDCOrgEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetDIBits
+    HANDLE
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:GetDeviceCaps
+    HANDLE
+    DWORD
+
+API:GDI32.dll:GetEnhMetaFileA
+    LPSTR
+
+API:GDI32.dll:GetEnhMetaFileBits
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetEnhMetaFileDescriptionA
+    HANDLE
+    DWORD
+    LPSTR
+
+API:GDI32.dll:GetEnhMetaFileDescriptionW
+    HANDLE
+    DWORD
+    LPWSTR
+
+API:GDI32.dll:GetEnhMetaFileHeader
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetEnhMetaFilePaletteEntries
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetEnhMetaFileW
+    LPWSTR
+
+API:GDI32.dll:GetFontData
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:GDI32.dll:GetGlyphOutline
+
+API:GDI32.dll:GetGlyphOutlineA
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:GetGlyphOutlineW
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:GetGraphicsMode
+    HANDLE
+
+API:GDI32.dll:GetKerningPairs
+
+API:GDI32.dll:GetKerningPairsA
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetKerningPairsW
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetMapMode
+    HANDLE
+
+API:GDI32.dll:GetMetaFileA
+    LPSTR
+
+API:GDI32.dll:GetMetaFileBitsEx
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetMetaFileW
+    LPWSTR
+
+API:GDI32.dll:GetMetaRgn
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:GetMiterLimit
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetNearestColor
+    HANDLE
+    DWORD
+
+API:GDI32.dll:GetNearestPaletteIndex
+    HANDLE
+    DWORD
+
+API:GDI32.dll:GetObjectA
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetObjectType
+    HANDLE
+
+API:GDI32.dll:GetObjectW
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetOutlineTextMetricsA
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetOutlineTextMetricsW
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetPaletteEntries
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetPath
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:GetPixel
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:GetPolyFillMode
+    HANDLE
+
+API:GDI32.dll:GetROP2
+    HANDLE
+
+API:GDI32.dll:GetRasterizerCaps
+    LPDATA
+    DWORD
+
+API:GDI32.dll:GetRegionData
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetRgnBox
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetStockObject
+    DWORD
+
+API:GDI32.dll:GetStretchBltMode
+    HANDLE
+
+API:GDI32.dll:GetSystemPaletteEntries
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetSystemPaletteUse
+    HANDLE
+
+API:GDI32.dll:GetTextAlign
+    HANDLE
+
+API:GDI32.dll:GetTextCharacterExtra
+    HANDLE
+
+API:GDI32.dll:GetTextColor
+    HANDLE
+
+API:GDI32.dll:GetTextExtentExPointA
+    HANDLE
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:GetTextExtentExPointW
+    HANDLE
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:GetTextExtentPoint32A
+    HANDLE
+    LPSTR
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetTextExtentPoint32W
+    HANDLE
+    LPWSTR
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetTextExtentPointA
+    HANDLE
+    LPSTR
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetTextExtentPointW
+    HANDLE
+    LPWSTR
+    DWORD
+    LPDATA
+
+API:GDI32.dll:GetTextFaceA
+    HANDLE
+    DWORD
+    LPSTR
+
+API:GDI32.dll:GetTextFaceW
+    HANDLE
+    DWORD
+    LPWSTR
+
+API:GDI32.dll:GetTextMetricsA
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetTextMetricsW
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetViewportExtEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetViewportOrgEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetWinMetaFileBits
+    HANDLE
+    DWORD
+    LPDATA
+    DWORD
+    HANDLE
+
+API:GDI32.dll:GetWindowExtEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetWindowOrgEx
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:GetWorldTransform
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:IntersectClipRect
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:InvertRgn
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:LPtoDP
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:LineDDA
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+
+API:GDI32.dll:LineTo
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:MaskBlt
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HANDLE
+    DWORD
+    DWORD
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:ModifyWorldTransform
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:MoveToEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:OffsetClipRgn
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:OffsetRgn
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:OffsetViewportOrgEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:OffsetWindowOrgEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:PaintRgn
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:PatBlt
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:PathToRegion
+    HANDLE
+
+API:GDI32.dll:Pie
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:PlayEnhMetaFile
+    HANDLE
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:PlayEnhMetaFileRecord
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PlayMetaFile
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:PlayMetaFileRecord
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PlgBlt
+    HANDLE
+    LPDATA
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:PolyBezier
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolyBezierTo
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolyDraw
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolyPolygon
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolyPolyline
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolyTextOutA
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolyTextOutW
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:Polygon
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:Polyline
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PolylineTo
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:PtInRegion
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:PtVisible
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:RealizePalette
+    HANDLE
+
+API:GDI32.dll:RectInRegion
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:RectVisible
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:Rectangle
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:RemoveFontResourceA
+    LPSTR
+
+API:GDI32.dll:RemoveFontResourceW
+    LPWSTR
+
+API:GDI32.dll:ResetDCA
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:ResetDCW
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:ResizePalette
+    HANDLE
+    DWORD
+
+API:GDI32.dll:RestoreDC
+    HANDLE
+    DWORD
+
+API:GDI32.dll:RoundRect
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:SaveDC
+    HANDLE
+
+API:GDI32.dll:ScaleViewportExtEx
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:ScaleWindowExtEx
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SelectClipPath
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SelectClipRgn
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:SelectObject
+    HANDLE
+    HANDLE
+
+API:GDI32.dll:SelectPalette
+    HANDLE
+    HANDLE
+    BOOL
+
+API:GDI32.dll:SetAbortProc
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:SetArcDirection
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetBitmapBits
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetBitmapDimensionEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetBkColor
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetBkMode
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetBoundsRect
+    HANDLE
+    LPDATA
+    DWORD
+
+API:GDI32.dll:SetBrushOrgEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetColorAdjustment
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:SetDIBits
+    HANDLE
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:SetDIBitsToDevice
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+
+API:GDI32.dll:SetEnhMetaFileBits
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetGraphicsMode
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetMapMode
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetMapperFlags
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetMetaFileBitsEx
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetMetaRgn
+    HANDLE
+
+API:GDI32.dll:SetMiterLimit
+    HANDLE
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetPaletteEntries
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetPixel
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:SetPixelV
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:SetPolyFillMode
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetROP2
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetRectRgn
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:SetStretchBltMode
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetSystemPaletteUse
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetTextAlign
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetTextCharacterExtra
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetTextColor
+    HANDLE
+    DWORD
+
+API:GDI32.dll:SetTextJustification
+    HANDLE
+    DWORD
+    DWORD
+
+API:GDI32.dll:SetViewportExtEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetViewportOrgEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetWinMetaFileBits
+    DWORD
+    LPDATA
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:SetWindowExtEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetWindowOrgEx
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+
+API:GDI32.dll:SetWorldTransform
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:StartDocA
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:StartDocW
+    HANDLE
+    LPDATA
+
+API:GDI32.dll:StartPage
+    HANDLE
+
+API:GDI32.dll:StretchBlt
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:GDI32.dll:StretchDIBits
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+    DWORD
+
+API:GDI32.dll:StrokeAndFillPath
+    HANDLE
+
+API:GDI32.dll:StrokePath
+    HANDLE
+
+API:GDI32.dll:TextOutA
+    HANDLE
+    DWORD
+    DWORD
+    LPSTR
+    DWORD
+
+API:GDI32.dll:TextOutW
+    HANDLE
+    DWORD
+    DWORD
+    LPWSTR
+    DWORD
+
+API:GDI32.dll:UnrealizeObject
+    HANDLE
+
+API:GDI32.dll:UpdateColors
+    HANDLE
+
+API:GDI32.dll:WidenPath
+    HANDLE
+
+API:USER32.dll:ActivateKeyboardLayout
+    HANDLE
+    DWORD
+
+API:USER32.dll:AdjustWindowRect
+    LPDATA
+    DWORD
+    BOOL
+
+API:USER32.dll:AdjustWindowRectEx
+    LPDATA
+    DWORD
+    BOOL
+    DWORD
+
+API:USER32.dll:AnyPopup
+    VOID
+
+API:USER32.dll:AppendMenuA
+    HANDLE
+    DWORD
+    DWORD
+    LPSTR
+    
+
+API:USER32.dll:AppendMenuW
+    HANDLE
+    DWORD
+    DWORD
+    LPWSTR
+    
+
+API:USER32.dll:ArrangeIconicWindows
+    HWND
+
+API:USER32.dll:AttachThreadInput
+    DWORD
+    DWORD
+    BOOL
+
+API:USER32.dll:BeginDeferWindowPos
+    DWORD
+
+API:USER32.dll:BeginPaint
+    HWND
+    LPDATA
+
+API:USER32.dll:BringWindowToTop
+    HWND
+
+API:USER32.dll:CalcChildScroll
+API:USER32.dll:CallMsgFilter
+API:USER32.dll:CallMsgFilterA
+    LPDATA
+    DWORD
+
+API:USER32.dll:CallMsgFilterW
+    LPDATA
+    DWORD
+
+API:USER32.dll:CallNextHookEx
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:CallWindowProcA
+    LPDATA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:CallWindowProcW
+    LPDATA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:CascadeChildWindows
+API:USER32.dll:ChangeClipboardChain
+    HWND
+    HWND
+
+API:USER32.dll:ChangeMenuA
+    HANDLE
+    DWORD
+    LPSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:ChangeMenuW
+    HANDLE
+    DWORD
+    LPWSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:CharLowerA
+    LPSTR
+
+API:USER32.dll:CharLowerBuffA
+    LPSTR
+    DWORD
+
+API:USER32.dll:CharLowerBuffW
+    LPWSTR
+    DWORD
+
+API:USER32.dll:CharLowerW
+    LPWSTR
+
+API:USER32.dll:CharNextA
+    LPSTR
+
+API:USER32.dll:CharNextW
+    LPWSTR
+
+API:USER32.dll:CharPrevA
+    LPSTR
+    LPSTR
+
+API:USER32.dll:CharPrevW
+    LPWSTR
+    LPWSTR
+
+API:USER32.dll:CharToOemA
+    LPSTR
+    LPSTR
+
+API:USER32.dll:CharToOemBuffA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:USER32.dll:CharToOemBuffW
+    LPWSTR
+    LPSTR
+    DWORD
+
+API:USER32.dll:CharToOemW
+    LPWSTR
+    LPSTR
+
+API:USER32.dll:CharUpperA
+    LPSTR
+
+API:USER32.dll:CharUpperBuffA
+    LPSTR
+    DWORD
+
+API:USER32.dll:CharUpperBuffW
+    LPWSTR
+    DWORD
+
+API:USER32.dll:CharUpperW
+    LPWSTR
+
+API:USER32.dll:CheckDlgButton
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:CheckMenuItem
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:CheckRadioButton
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:ChildWindowFromPoint
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:ClientToScreen
+    HWND
+    LPDATA
+
+API:USER32.dll:ClipCursor
+    LPDATA
+
+API:USER32.dll:CloseClipboard
+    VOID
+
+API:USER32.dll:CloseDesktop
+API:USER32.dll:CloseWindow
+    HWND
+
+API:USER32.dll:CopyAcceleratorTableA
+    HANDLE
+    LPDATA
+    DWORD
+
+API:USER32.dll:CopyAcceleratorTableW
+    HANDLE
+    LPDATA
+    DWORD
+
+API:USER32.dll:CopyIcon
+    HANDLE
+
+API:USER32.dll:CopyRect
+    LPDATA
+    LPDATA
+
+API:USER32.dll:CountClipboardFormats
+    VOID
+
+API:USER32.dll:CreateAcceleratorTableA
+    LPDATA
+    DWORD
+
+API:USER32.dll:CreateAcceleratorTableW
+    LPDATA
+    DWORD
+
+API:USER32.dll:CreateCaret
+    HWND
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:CreateCursor
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+
+API:USER32.dll:CreateDialogIndirectParamA
+    HANDLE
+    LPDATA
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:CreateDialogIndirectParamW
+    HANDLE
+    LPDATA
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:CreateDialogParamA
+    HANDLE
+    LPSTR
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:CreateDialogParamW
+    HANDLE
+    LPWSTR
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:CreateIcon
+    HANDLE
+    DWORD
+    DWORD
+    BYTE
+    BYTE
+    LPDATA
+    LPDATA
+
+API:USER32.dll:CreateIconFromResource
+    LPDATA
+    DWORD
+    BOOL
+    DWORD
+
+API:USER32.dll:CreateIconIndirect
+    LPDATA
+
+API:USER32.dll:CreateMDIWindowA
+    LPSTR
+    LPSTR
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HWND
+    HANDLE
+    DWORD
+    
+
+API:USER32.dll:CreateMDIWindowW
+    LPWSTR
+    LPWSTR
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HWND
+    HANDLE
+    DWORD
+    
+
+API:USER32.dll:CreateMenu
+    VOID
+
+API:USER32.dll:CreatePopupMenu
+    VOID
+
+API:USER32.dll:CreateWindowExA
+    DWORD
+    LPSTR
+    LPSTR
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HWND
+    HANDLE
+    HANDLE
+    LPDATA
+
+API:USER32.dll:CreateWindowExW
+    DWORD
+    LPWSTR
+    LPWSTR
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HWND
+    HANDLE
+    HANDLE
+    LPDATA
+
+API:USER32.dll:DdeAbandonTransaction
+API:USER32.dll:DdeAccessData
+API:USER32.dll:DdeAddData
+API:USER32.dll:DdeClientTransaction
+API:USER32.dll:DdeCmpStringHandles
+API:USER32.dll:DdeConnect
+API:USER32.dll:DdeConnectList
+API:USER32.dll:DdeCreateDataHandle
+API:USER32.dll:DdeCreateStringHandleA
+API:USER32.dll:DdeCreateStringHandleW
+API:USER32.dll:DdeDisconnect
+API:USER32.dll:DdeDisconnectList
+API:USER32.dll:DdeEnableCallback
+API:USER32.dll:DdeFreeDataHandle
+API:USER32.dll:DdeFreeStringHandle
+API:USER32.dll:DdeGetData
+API:USER32.dll:DdeGetLastError
+API:USER32.dll:DdeImpersonateClient
+API:USER32.dll:DdeInitializeA
+API:USER32.dll:DdeInitializeW
+API:USER32.dll:DdeKeepStringHandle
+API:USER32.dll:DdeNameService
+API:USER32.dll:DdePostAdvise
+API:USER32.dll:DdeQueryConvInfo
+API:USER32.dll:DdeQueryNextServer
+API:USER32.dll:DdeQueryStringA
+API:USER32.dll:DdeQueryStringW
+API:USER32.dll:DdeReconnect
+API:USER32.dll:DdeSetUserHandle
+API:USER32.dll:DdeUnaccessData
+API:USER32.dll:DdeUninitialize
+API:USER32.dll:DefDlgProcA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefDlgProcW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefFrameProcA
+    HWND
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefFrameProcW
+    HWND
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefMDIChildProcA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefMDIChildProcW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefWindowProcA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DefWindowProcW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DeferWindowPos
+    HANDLE
+    HWND
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DeleteMenu
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:DestroyAcceleratorTable
+    HANDLE
+
+API:USER32.dll:DestroyCaret
+    VOID
+
+API:USER32.dll:DestroyCursor
+    HANDLE
+
+API:USER32.dll:DestroyIcon
+    HANDLE
+
+API:USER32.dll:DestroyMenu
+    HANDLE
+
+API:USER32.dll:DestroyWindow
+    HWND
+
+API:USER32.dll:DialogBoxIndirectParamA
+    HANDLE
+    LPDATA
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:DialogBoxIndirectParamW
+    HANDLE
+    LPDATA
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:DialogBoxParamA
+    HANDLE
+    LPSTR
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:DialogBoxParamW
+    HANDLE
+    LPWSTR
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:DispatchMessageA
+    LPDATA
+
+API:USER32.dll:DispatchMessageW
+    LPDATA
+
+API:USER32.dll:DlgDirListA
+    HWND
+    LPSTR
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirListComboBoxA
+    HWND
+    LPSTR
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirListComboBoxW
+    HWND
+    LPWSTR
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirListW
+    HWND
+    LPWSTR
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirSelectComboBoxExA
+    HWND
+    LPSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirSelectComboBoxExW
+    HWND
+    LPWSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirSelectExA
+    HWND
+    LPSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:DlgDirSelectExW
+    HWND
+    LPWSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:DragObject
+API:USER32.dll:DrawFocusRect
+    HANDLE
+    LPDATA
+
+API:USER32.dll:DrawIcon
+    HANDLE
+    DWORD
+    DWORD
+    HANDLE
+
+API:USER32.dll:DrawMenuBar
+    HWND
+
+API:USER32.dll:DrawTextA
+    HANDLE
+    LPSTR
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:DrawTextW
+    HANDLE
+    LPWSTR
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:EmptyClipboard
+    VOID
+
+API:USER32.dll:EnableMenuItem
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:EnableScrollBar
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:EnableWindow
+    HWND
+    BOOL
+
+API:USER32.dll:EndDeferWindowPos
+    HANDLE
+
+API:USER32.dll:EndDialog
+    HWND
+    DWORD
+
+API:USER32.dll:EndPaint
+    HWND
+    LPDATA
+
+API:USER32.dll:EnumChildWindows
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:EnumClipboardFormats
+    DWORD
+
+API:USER32.dll:EnumPropsA
+    HWND
+    LPDATA
+
+API:USER32.dll:EnumPropsExA
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:EnumPropsExW
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:EnumPropsW
+    HWND
+    LPDATA
+
+API:USER32.dll:EnumThreadWindows
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:EnumWindows
+    LPDATA
+    DWORD
+
+API:USER32.dll:EqualRect
+    LPDATA
+    LPDATA
+
+API:USER32.dll:ExcludeUpdateRgn
+    HANDLE
+    HWND
+
+API:USER32.dll:ExitWindowsEx
+    DWORD
+    DWORD
+
+API:USER32.dll:FillRect
+    HANDLE
+    LPDATA
+    HANDLE
+
+API:USER32.dll:FindWindowA
+    LPSTR
+    LPSTR
+
+API:USER32.dll:FindWindowW
+    LPWSTR
+    LPWSTR
+
+API:USER32.dll:FlashWindow
+    HWND
+    BOOL
+
+API:USER32.dll:FrameRect
+    HANDLE
+    LPDATA
+    HANDLE
+
+API:USER32.dll:FreeDDElParam
+API:USER32.dll:GetActiveWindow
+    VOID
+
+API:USER32.dll:GetAsyncKeyState
+    DWORD
+
+API:USER32.dll:GetCapture
+    VOID
+
+API:USER32.dll:GetCaretBlinkTime
+    VOID
+
+API:USER32.dll:GetCaretPos
+    LPDATA
+
+API:USER32.dll:GetClassInfoA
+    HANDLE
+    LPSTR
+    LPDATA
+
+API:USER32.dll:GetClassInfoW
+    HANDLE
+    LPWSTR
+    LPDATA
+
+API:USER32.dll:GetClassLongA
+    HWND
+    DWORD
+
+API:USER32.dll:GetClassLongW
+    HWND
+    DWORD
+
+API:USER32.dll:GetClassNameA
+    HWND
+    LPSTR
+    DWORD
+
+API:USER32.dll:GetClassNameW
+    HWND
+    LPWSTR
+    DWORD
+
+API:USER32.dll:GetClassWord
+    HWND
+    DWORD
+
+API:USER32.dll:GetClientRect
+    HWND
+    LPDATA
+
+API:USER32.dll:GetClipCursor
+    LPDATA
+
+API:USER32.dll:GetClipboardData
+    DWORD
+
+API:USER32.dll:GetClipboardFormatNameA
+    DWORD
+    LPSTR
+    DWORD
+
+API:USER32.dll:GetClipboardFormatNameW
+    DWORD
+    LPWSTR
+    DWORD
+
+API:USER32.dll:GetClipboardOwner
+    VOID
+
+API:USER32.dll:GetClipboardViewer
+    VOID
+
+API:USER32.dll:GetCursor
+    VOID
+
+API:USER32.dll:GetCursorPos
+    LPDATA
+
+API:USER32.dll:GetDC
+    HWND
+
+API:USER32.dll:GetDCEx
+    HWND
+    HANDLE
+    DWORD
+
+API:USER32.dll:GetDesktopWindow
+    VOID
+
+API:USER32.dll:GetDialogBaseUnits
+    VOID
+
+API:USER32.dll:GetDlgCtrlID
+    HWND
+
+API:USER32.dll:GetDlgItem
+    HWND
+    DWORD
+
+API:USER32.dll:GetDlgItemInt
+    HWND
+    DWORD
+    LPDATA
+    BOOL
+
+API:USER32.dll:GetDlgItemTextA
+    HWND
+    DWORD
+    LPSTR
+    DWORD
+
+API:USER32.dll:GetDlgItemTextW
+    HWND
+    DWORD
+    LPWSTR
+    DWORD
+
+API:USER32.dll:GetDoubleClickTime
+    VOID
+
+API:USER32.dll:GetFocus
+    VOID
+
+API:USER32.dll:GetForegroundWindow
+    VOID
+
+API:USER32.dll:GetIconInfo
+    HANDLE
+    LPDATA
+
+API:USER32.dll:GetInputDesktop
+API:USER32.dll:GetInputState
+    VOID
+
+API:USER32.dll:GetInternalWindowPos
+API:USER32.dll:GetKBCodePage
+    VOID
+
+API:USER32.dll:GetKeyNameTextA
+    DWORD
+    LPSTR
+    DWORD
+    
+
+API:USER32.dll:GetKeyNameTextW
+    DWORD
+    LPWSTR
+    DWORD
+    
+
+API:USER32.dll:GetKeyState
+    DWORD
+
+API:USER32.dll:GetKeyboardLayoutNameA
+    LPSTR
+
+API:USER32.dll:GetKeyboardLayoutNameW
+    LPWSTR
+
+API:USER32.dll:GetKeyboardState
+    LPDATA
+
+API:USER32.dll:GetKeyboardType
+    DWORD
+
+API:USER32.dll:GetLastActivePopup
+    HWND
+
+API:USER32.dll:GetMenu
+    HWND
+
+API:USER32.dll:GetMenuCheckMarkDimensions
+    VOID
+
+API:USER32.dll:GetMenuItemCount
+    HANDLE
+
+API:USER32.dll:GetMenuItemID
+    HANDLE
+    DWORD
+
+API:USER32.dll:GetMenuState
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:GetMenuStringA
+    HANDLE
+    DWORD
+    LPSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:GetMenuStringW
+    HANDLE
+    DWORD
+    LPWSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:GetMessageA
+    LPDATA
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:GetMessageExtraInfo
+    VOID
+
+API:USER32.dll:GetMessagePos
+    VOID
+
+API:USER32.dll:GetMessageTime
+    VOID
+
+API:USER32.dll:GetMessageW
+    LPDATA
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:GetNextDlgGroupItem
+    HWND
+    HWND
+    BOOL
+
+API:USER32.dll:GetNextDlgTabItem
+    HWND
+    HWND
+    BOOL
+
+API:USER32.dll:GetOpenClipboardWindow
+    VOID
+
+API:USER32.dll:GetParent
+    HWND
+
+API:USER32.dll:GetPriorityClipboardFormat
+    LPDATA
+    DWORD
+
+API:USER32.dll:GetProcessWindowStation
+    VOID
+
+API:USER32.dll:GetPropA
+    HWND
+    LPSTR
+
+API:USER32.dll:GetPropW
+    HWND
+    LPWSTR
+
+API:USER32.dll:GetQueueStatus
+    DWORD
+
+API:USER32.dll:GetScrollPos
+    HWND
+    DWORD
+
+API:USER32.dll:GetScrollRange
+    HWND
+    DWORD
+    LPDATA
+    LPDATA
+
+API:USER32.dll:GetSubMenu
+    HANDLE
+    DWORD
+
+API:USER32.dll:GetSysColor
+    DWORD
+
+API:USER32.dll:GetSystemMenu
+    HWND
+    BOOL
+
+API:USER32.dll:GetSystemMetrics
+    DWORD
+
+API:USER32.dll:GetTabbedTextExtentA
+    HANDLE
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:USER32.dll:GetTabbedTextExtentW
+    HANDLE
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+
+API:USER32.dll:GetThreadDesktop
+    DWORD
+
+API:USER32.dll:GetTopWindow
+    HWND
+
+API:USER32.dll:GetUpdateRect
+    HWND
+    LPDATA
+    BOOL
+
+API:USER32.dll:GetUpdateRgn
+    HWND
+    HANDLE
+    BOOL
+
+API:USER32.dll:GetUserObjectSecurity
+    HANDLE
+    LPDATA
+    LPDATA
+    DWORD
+    LPDATA
+
+API:USER32.dll:GetWindow
+    HWND
+    DWORD
+
+API:USER32.dll:GetWindowDC
+    HWND
+
+API:USER32.dll:GetWindowLongA
+    HWND
+    DWORD
+
+API:USER32.dll:GetWindowLongW
+    HWND
+    DWORD
+
+API:USER32.dll:GetWindowPlacement
+    HWND
+    LPDATA
+
+API:USER32.dll:GetWindowRect
+    HWND
+    LPDATA
+
+API:USER32.dll:GetWindowTextA
+    HWND
+    LPSTR
+    DWORD
+
+API:USER32.dll:GetWindowTextLengthA
+    HWND
+
+API:USER32.dll:GetWindowTextLengthW
+    HWND
+
+API:USER32.dll:GetWindowTextW
+    HWND
+    LPWSTR
+    DWORD
+
+API:USER32.dll:GetWindowThreadProcessId
+    HWND
+    LPDATA
+
+API:USER32.dll:GetWindowWord
+    HWND
+    DWORD
+
+API:USER32.dll:GrayStringA
+    HANDLE
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:GrayStringW
+    HANDLE
+    HANDLE
+    LPDATA
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:HideCaret
+    HWND
+
+API:USER32.dll:HiliteMenuItem
+    HWND
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:InSendMessage
+    VOID
+
+API:USER32.dll:InflateRect
+    LPDATA
+    DWORD
+    DWORD
+
+API:USER32.dll:InsertMenuA
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPSTR
+    
+
+API:USER32.dll:InsertMenuW
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPWSTR
+    
+
+API:USER32.dll:InternalGetWindowText
+API:USER32.dll:IntersectRect
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:USER32.dll:InvalidateRect
+    HWND
+    LPDATA
+    BOOL
+
+API:USER32.dll:InvalidateRgn
+    HWND
+    HANDLE
+    BOOL
+
+API:USER32.dll:InvertRect
+    HANDLE
+    LPDATA
+
+API:USER32.dll:IsCharAlphaA
+    BYTE
+
+API:USER32.dll:IsCharAlphaNumericA
+    BYTE
+
+API:USER32.dll:IsCharAlphaNumericW
+    WORD
+
+API:USER32.dll:IsCharAlphaW
+    WORD
+
+API:USER32.dll:IsCharLowerA
+    BYTE
+
+API:USER32.dll:IsCharLowerW
+    WORD
+
+API:USER32.dll:IsCharUpperA
+    BYTE
+
+API:USER32.dll:IsCharUpperW
+    WORD
+
+API:USER32.dll:IsChild
+    HWND
+    HWND
+
+API:USER32.dll:IsClipboardFormatAvailable
+    DWORD
+
+API:USER32.dll:IsDialogMessage
+API:USER32.dll:IsDialogMessageA
+    HWND
+    LPDATA
+
+API:USER32.dll:IsDialogMessageW
+    HWND
+    LPDATA
+
+API:USER32.dll:IsDlgButtonChecked
+    HWND
+    DWORD
+
+API:USER32.dll:IsIconic
+    HWND
+
+API:USER32.dll:IsMenu
+    HANDLE
+
+API:USER32.dll:IsRectEmpty
+    LPDATA
+
+API:USER32.dll:IsWindow
+    HWND
+
+API:USER32.dll:IsWindowEnabled
+    HWND
+
+API:USER32.dll:IsWindowUnicode
+    HWND
+
+API:USER32.dll:IsWindowVisible
+    HWND
+
+API:USER32.dll:IsZoomed
+    HWND
+
+API:USER32.dll:KillTimer
+    HWND
+    DWORD
+
+API:USER32.dll:LoadAcceleratorsA
+    HANDLE
+    LPSTR
+
+API:USER32.dll:LoadAcceleratorsW
+    HANDLE
+    LPWSTR
+
+API:USER32.dll:LoadBitmapA
+    HANDLE
+    LPSTR
+
+API:USER32.dll:LoadBitmapW
+    HANDLE
+    LPWSTR
+
+API:USER32.dll:LoadCursorA
+    HANDLE
+    LPSTR
+
+API:USER32.dll:LoadCursorW
+    HANDLE
+    LPWSTR
+
+API:USER32.dll:LoadIconA
+    HANDLE
+    LPSTR
+
+API:USER32.dll:LoadIconW
+    HANDLE
+    LPWSTR
+
+API:USER32.dll:LoadKeyboardLayoutA
+    LPSTR
+    DWORD
+
+API:USER32.dll:LoadKeyboardLayoutW
+    LPWSTR
+    DWORD
+
+API:USER32.dll:LoadMenuA
+    HANDLE
+    LPSTR
+
+API:USER32.dll:LoadMenuIndirectA
+    LPDATA
+
+API:USER32.dll:LoadMenuIndirectW
+    LPDATA
+
+API:USER32.dll:LoadMenuW
+    HANDLE
+    LPWSTR
+
+API:USER32.dll:LoadStringA
+    HANDLE
+    DWORD
+    LPSTR
+    DWORD
+
+API:USER32.dll:LoadStringW
+    HANDLE
+    DWORD
+    LPWSTR
+    DWORD
+
+API:USER32.dll:LockWindowStation
+API:USER32.dll:LockWindowUpdate
+    HWND
+
+API:USER32.dll:LookupIconIdFromDirectory
+    LPDATA
+    BOOL
+
+API:USER32.dll:MapDialogRect
+    HWND
+    LPDATA
+
+API:USER32.dll:MapVirtualKeyA
+    DWORD
+    DWORD
+
+API:USER32.dll:MapVirtualKeyW
+    DWORD
+    DWORD
+
+API:USER32.dll:MapWindowPoints
+    HWND
+    HWND
+    LPDATA
+    DWORD
+
+API:USER32.dll:MessageBeep
+    DWORD
+
+API:USER32.dll:MessageBoxA
+    HWND
+    LPSTR
+    LPSTR
+    DWORD
+
+API:USER32.dll:MessageBoxExA
+    HWND
+    LPSTR
+    LPSTR
+    DWORD
+    WORD
+
+API:USER32.dll:MessageBoxExW
+    HWND
+    LPWSTR
+    LPWSTR
+    DWORD
+    WORD
+
+API:USER32.dll:MessageBoxW
+    HWND
+    LPWSTR
+    LPWSTR
+    DWORD
+
+API:USER32.dll:ModifyMenuA
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPSTR
+    
+
+API:USER32.dll:ModifyMenuW
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    LPWSTR
+    
+
+API:USER32.dll:MoveWindow
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    BOOL
+
+API:USER32.dll:MsgWaitForMultipleObjects
+    DWORD
+    LPDATA
+    BOOL
+    DWORD
+    DWORD
+
+API:USER32.dll:OemKeyScan
+    WORD
+
+API:USER32.dll:OemToCharA
+    LPSTR
+    LPSTR
+
+API:USER32.dll:OemToCharBuffA
+    LPSTR
+    LPSTR
+    DWORD
+
+API:USER32.dll:OemToCharBuffW
+    LPSTR
+    LPWSTR
+    DWORD
+
+API:USER32.dll:OemToCharW
+    LPSTR
+    LPWSTR
+
+API:USER32.dll:OffsetRect
+    LPDATA
+    DWORD
+    DWORD
+
+API:USER32.dll:OpenClipboard
+    HWND
+
+API:USER32.dll:OpenIcon
+    HWND
+
+API:USER32.dll:PackDDElParam
+API:USER32.dll:PeekMessageA
+    LPDATA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:PeekMessageW
+    LPDATA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:PostMessageA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:PostMessageW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:PostQuitMessage
+    DWORD
+
+API:USER32.dll:PostThreadMessageA
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:PostThreadMessageW
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:PtInRect
+    LPDATA
+    DWORD
+    DWORD
+
+API:USER32.dll:RedrawWindow
+    HWND
+    LPDATA
+    HANDLE
+    DWORD
+
+API:USER32.dll:RegisterClassA
+    LPDATA
+
+API:USER32.dll:RegisterClassW
+    LPDATA
+
+API:USER32.dll:RegisterClipboardFormatA
+    LPSTR
+
+API:USER32.dll:RegisterClipboardFormatW
+    LPWSTR
+
+API:USER32.dll:RegisterHotKey
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:RegisterLogonProcess
+API:USER32.dll:RegisterTasklist
+API:USER32.dll:RegisterWindowMessageA
+    LPSTR
+
+API:USER32.dll:RegisterWindowMessageW
+    LPWSTR
+
+API:USER32.dll:ReleaseCapture
+    VOID
+
+API:USER32.dll:ReleaseDC
+    HWND
+    HANDLE
+
+API:USER32.dll:RemoveMenu
+    HANDLE
+    DWORD
+    DWORD
+
+API:USER32.dll:RemovePropA
+    HWND
+    LPSTR
+
+API:USER32.dll:RemovePropW
+    HWND
+    LPWSTR
+
+API:USER32.dll:ReplyMessage
+    DWORD
+
+API:USER32.dll:ReuseDDElParam
+API:USER32.dll:ScreenToClient
+    HWND
+    LPDATA
+
+API:USER32.dll:ScrollDC
+    HANDLE
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    HANDLE
+    LPDATA
+
+API:USER32.dll:ScrollWindow
+    HWND
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+
+API:USER32.dll:ScrollWindowEx
+    HWND
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    HANDLE
+    LPDATA
+    DWORD
+
+API:USER32.dll:SendDlgItemMessageA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SendDlgItemMessageW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SendMessageA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SendMessageCallbackA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:SendMessageCallbackW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:SendMessageTimeoutA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:USER32.dll:SendMessageTimeoutW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    LPDATA
+
+API:USER32.dll:SendMessageW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SendNotifyMessageA
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SendNotifyMessageW
+    HWND
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SetActiveWindow
+    HWND
+
+API:USER32.dll:SetCapture
+    HWND
+
+API:USER32.dll:SetCaretBlinkTime
+    DWORD
+
+API:USER32.dll:SetCaretPos
+    DWORD
+    DWORD
+
+API:USER32.dll:SetClassLongA
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:SetClassLongW
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:SetClassWord
+    HWND
+    DWORD
+    WORD
+
+API:USER32.dll:SetClipboardData
+    DWORD
+    HANDLE
+
+API:USER32.dll:SetClipboardViewer
+    HWND
+
+API:USER32.dll:SetCursor
+    HANDLE
+
+API:USER32.dll:SetCursorPos
+    DWORD
+    DWORD
+
+API:USER32.dll:SetDebugErrorLevel
+API:USER32.dll:SetDeskWallpaper
+API:USER32.dll:SetDlgItemInt
+    HWND
+    DWORD
+    DWORD
+    BOOL
+
+API:USER32.dll:SetDlgItemTextA
+    HWND
+    DWORD
+    LPSTR
+
+API:USER32.dll:SetDlgItemTextW
+    HWND
+    DWORD
+    LPWSTR
+
+API:USER32.dll:SetDoubleClickTime
+    DWORD
+
+API:USER32.dll:SetFocus
+    HWND
+
+API:USER32.dll:SetForegroundWindow
+    HWND
+
+API:USER32.dll:SetInternalWindowPos
+API:USER32.dll:SetKeyboardState
+    LPDATA
+
+API:USER32.dll:SetLastErrorEx
+API:USER32.dll:SetLogonNotifyWindow
+API:USER32.dll:SetMenu
+    HWND
+    HANDLE
+
+API:USER32.dll:SetMenuItemBitmaps
+    HANDLE
+    DWORD
+    DWORD
+    HANDLE
+    HANDLE
+
+API:USER32.dll:SetMessageQueue
+    DWORD
+
+API:USER32.dll:SetParent
+    HWND
+    HWND
+
+API:USER32.dll:SetProcessWindowStation
+API:USER32.dll:SetPropA
+    HWND
+    LPSTR
+    HANDLE
+
+API:USER32.dll:SetPropW
+    HWND
+    LPWSTR
+    HANDLE
+
+API:USER32.dll:SetRect
+    LPDATA
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SetRectEmpty
+API:USER32.dll:SetScrollPos
+    HWND
+    DWORD
+    DWORD
+    BOOL
+
+API:USER32.dll:SetScrollRange
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    BOOL
+
+API:USER32.dll:SetSysColors
+    DWORD
+    LPDATA
+    LPDATA
+
+API:USER32.dll:SetThreadDesktop
+API:USER32.dll:SetTimer
+    HWND
+    DWORD
+    DWORD
+    LPDATA
+
+API:USER32.dll:SetUserObjectSecurity
+    HANDLE
+    LPDATA
+    LPDATA
+
+API:USER32.dll:SetWindowFullScreenState
+API:USER32.dll:SetWindowLongA
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:SetWindowLongW
+    HWND
+    DWORD
+    DWORD
+
+API:USER32.dll:SetWindowPlacement
+    HWND
+    LPDATA
+
+API:USER32.dll:SetWindowPos
+    HWND
+    HWND
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:SetWindowTextA
+    HWND
+    LPSTR
+
+API:USER32.dll:SetWindowTextW
+    HWND
+    LPWSTR
+
+API:USER32.dll:SetWindowWord
+    HWND
+    DWORD
+    WORD
+
+API:USER32.dll:SetWindowsHookA
+    DWORD
+    LPDATA
+
+API:USER32.dll:SetWindowsHookExA
+    DWORD
+    LPDATA
+    HANDLE
+    DWORD
+
+API:USER32.dll:SetWindowsHookExW
+    DWORD
+    LPDATA
+    HANDLE
+    DWORD
+
+API:USER32.dll:SetWindowsHookW
+    DWORD
+    LPDATA
+
+API:USER32.dll:ShowCaret
+    HWND
+
+API:USER32.dll:ShowCursor
+    BOOL
+
+API:USER32.dll:ShowOwnedPopups
+    HWND
+    BOOL
+
+API:USER32.dll:ShowScrollBar
+    HWND
+    DWORD
+    BOOL
+
+API:USER32.dll:ShowWindow
+    HWND
+    DWORD
+
+API:USER32.dll:SubtractRect
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:USER32.dll:SwapMouseButton
+    BOOL
+
+API:USER32.dll:SwitchDesktop
+API:USER32.dll:SwitchToThisWindow
+API:USER32.dll:SystemParametersInfoA
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:SystemParametersInfoW
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:TabbedTextOutA
+    HANDLE
+    DWORD
+    DWORD
+    LPSTR
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:TabbedTextOutW
+    HANDLE
+    DWORD
+    DWORD
+    LPWSTR
+    DWORD
+    DWORD
+    LPDATA
+    DWORD
+
+API:USER32.dll:TileChildWindows
+API:USER32.dll:ToAscii
+    DWORD
+    DWORD
+    LPDATA
+    LPDATA
+    DWORD
+
+API:USER32.dll:ToUnicode
+    DWORD
+    DWORD
+    LPDATA
+    LPWSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:TrackPopupMenu
+    HANDLE
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    HWND
+    LPDATA
+
+API:USER32.dll:TranslateAccelerator
+API:USER32.dll:TranslateAcceleratorA
+    HWND
+    HANDLE
+    LPDATA
+
+API:USER32.dll:TranslateAcceleratorW
+    HWND
+    HANDLE
+    LPDATA
+
+API:USER32.dll:TranslateMDISysAccel
+    HWND
+    LPDATA
+
+API:USER32.dll:TranslateMessage
+    LPDATA
+
+API:USER32.dll:UnhookWindowsHook
+    DWORD
+    LPDATA
+
+API:USER32.dll:UnhookWindowsHookEx
+    HANDLE
+
+API:USER32.dll:UnionRect
+    LPDATA
+    LPDATA
+    LPDATA
+
+API:USER32.dll:UnloadKeyboardLayout
+    HANDLE
+
+API:USER32.dll:UnlockWindowStation
+API:USER32.dll:UnpackDDElParam
+API:USER32.dll:UnregisterClassA
+    LPSTR
+    HANDLE
+
+API:USER32.dll:UnregisterClassW
+    LPWSTR
+    HANDLE
+
+API:USER32.dll:UnregisterHotKey
+    HWND
+    DWORD
+
+API:USER32.dll:UpdateWindow
+    HWND
+
+API:USER32.dll:ValidateRect
+    HWND
+    LPDATA
+
+API:USER32.dll:ValidateRgn
+    HWND
+    HANDLE
+
+API:USER32.dll:VkKeyScanA
+    BYTE
+
+API:USER32.dll:VkKeyScanW
+    WORD
+
+API:USER32.dll:WaitForInputIdle
+    HANDLE
+    DWORD
+
+API:USER32.dll:WaitMessage
+    VOID
+
+API:USER32.dll:WinHelpA
+    HWND
+    LPSTR
+    DWORD
+    DWORD
+    
+
+API:USER32.dll:WinHelpW
+    HWND
+    LPWSTR
+    DWORD
+    DWORD
+
+API:USER32.dll:WindowFromDC
+    HANDLE
+
+API:USER32.dll:WindowFromPoint
+    DWORD
+    DWORD
+
+API:USER32.dll:YieldTask
+API:USER32.dll:keybd_event
+    BYTE
+    BYTE
+    DWORD
+    DWORD
+
+API:USER32.dll:mouse_event
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+    DWORD
+
+API:USER32.dll:wsprintfA
+    LPSTR
+    LPSTR
+
+API:USER32.dll:wsprintfW
+    LPWSTR
+    LPWSTR
+
+API:USER32.dll:wvsprintfA
+    LPSTR
+    LPSTR
+
+API:USER32.dll:wvsprintfW
+    LPWSTR
+    LPWSTR
+

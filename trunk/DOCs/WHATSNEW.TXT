@@ -1,0 +1,158 @@
+--------------------------
+       WHATS NEW  
+--------------------------
+v3.10
+1) Sorting by name in event handler list now sorts by name, not by rva.
+2) Minor bugs fixed and improvements added
+3) Now it is possible to comment every line in the asm listing
+4) It is possible to change local and global vars names displayed
+
+v3.02
+~~~~~
+1) A clx unit was included by mistake in v3.01 and qtintf.dll was required to run it. Now this is fixed and this dll is not needed.
+
+v3.01
+~~~~~
+1) Multi language support is now done better with ini files. You can easily make translation for other language. The left side of the "=" must have the same names and the same order. "\" means new line and %d, %s are formating stuff. You need to keep them. Supports for English, Portuguess, Italian, French, Dutch and Danish (in the order they have been translated)
+2) PE Editor has better interface and now allow to edit also directory entries.
+3) Now DeDe supports Kylix ELF files for Linux
+4) Many bugs fixed .. but now all :)
+5) Some minor changes and improvements made
+6) Plugins bug fixed. New SDK released. Now it is considered as stable but you can try to crash it :) Oh well why not just try to use it for building something usefull .... dunno what exactly :) May be asm2pas tool (Hi LazyC0DEr hope you can be also other than lazy coder hehe )
+
+
+v3.0b
+~~~~~
+1) Added support for Delphi 6 VCL and CLX
+2) Added recognition of KOL
+3) Added DSF and DOI files for Delphi 6 and DSF file for KOL
+
+v2.50
+~~~~~
+1) Class emulator improved
+   - Added additional instructions
+   - Added global variables access references
+   - Trying to find parameters types when calling subprocedure with double clicking on CALL instruction and use them as initial values for emulating the subprocedure.
+2) Few minor bugs fixed
+3) Now exported to .map files references can be compiled to .sym/.nsm files and loaded into SoftIce automaticly
+4) Added plugin support. DeDe SDK ver 1.0 beta included ! Simple test plugin with sources included.
+5) DCU2INT output changed and DCU.2.DSF engine improved !!!
+6) Class dump engine improved! Duplicate bug fixed.
+7) Added unit recognition, initialization, finalization.
+8) DCU to DSF engine improved a lot. Now it works for almost 100% of dcus. DSF patterns ideology improved. New DSF files for VCL 2,3,4 and 5 included. Now you need to load only one .dsf file for the whole VCL.
+
+
+v2.44
+~~~~~
+1) Bugs fixed
+   - Disassembling the DPR code ("Show DPR" speed button) causes access violation if the target is Delphi console application.
+   - Back navigation in procedures tree do not work properly when "Disassemble Proc" speed button has been used.
+   - After the file has been processed in the very first disassembly listing the control types are shown as 'N.A.' and there have been no DOI references.
+   - In the unit list sometimes has been shown invalid crap name beginning with 'TPF0'
+   - 'Initializing Pointers' operation when dumping extra data from the process memory is enabled has been *very* slow. Now it is very fast.
+   - Processing .dll files with set 'Dump extra data ...' causes 'index out of bounds' exception
+2) The standart VCL unit list (su.lst) has been updated 
+
+
+v2.431
+~~~~~~
+1) DSF and DOI support for Delphi 2 added. VCL2.dsf and D2.DOI files added.
+
+
+v2.43
+~~~~~
+1) Added text searching in ASM listing form
+2) In ASM listing double click on jump instructions to go to the jump line and right
+double click to return back
+3) VCL4 and 5 DOI files are now loaded for BCB4 and 5 aplications. Because of the specifics
+of C compiler asm code the DOI refereces in BCB targets are not 100% correct
+4) Showing DOI references can be turned off unchecking "Show DOI reeferences" checkbox
+5) The configuration options are now saved in dede.ini. They are no longer stored in the
+registry
+6) The DOI references added in .map export for IDA. Some fixes made.
+7) Stream read errors while dumping classes are now ignored
+8) Managing with the DFM data improved. The file 'dfm.$$$' is now created in the temp dir and deleted when is not needed.
+9) DSF files now can be build directly from DCU files. No need to compile to BPL.
+10) Progress bar indicator now shows the progress fine :)
+
+v2.42
+~~~~~~
+1) DOI files containing information for VCL 3,4 and 5 added. To use them just put the files in the DSF folder. DeDe automaticly loads the neseccary files when needed.
+2) Bug that when the navigate buttons are used in disassembly form is causing exception fixed. Now it works ok.
+3) Some minor bugs fixed
+
+v2.41
+~~~~~
+1) Resource bug fixed ("%d incompatible ....")
+2) DOI Builder added
+3) .ini files for most common VCL classes added
+
+
+v2.40
+~~~~~
+1) Support for Delphi 2 !
+2) Internal emulator improved 
+3) D4.DOI file updated
+4) Some bugs fixed
+
+v2.40 beta 6
+~~~~~~~~~~~~
+1) Support for Borland C Builder !
+
+
+v2.40 beta 5
+~~~~~~~~~~~~
+1) Minor bugs fixed
+
+
+v2.40 beta 3
+~~~~~~~~~~~~
+1) Added export of DeDe references to a Win32DASM ALF file. 
+
+
+v2.40 beta 2
+~~~~~~~~~~~~
+1) DFM dump engine bug fixed. Now inherited form resources are recognized.
+2) Added unit list of used units. Black color indicates standart VCL unit and blu color indicates custom unit. File su.lst is used so other units could be added manually.
+3) When the target is loaded a message box is shown and processing cuntinue after the user presses OK btn when the target is fully loaded. So problems with loading WaitForInputIdle() timeout is fixed.
+
+
+v2.40 beta 1
+~~~~~~~~~~~~
+1) DSF engine improved. Please build or download the new DSF files
+2) Added new reference type for memory access like this:
+
+* Possible reference to TForm2
+|
+004771AD   A12C9C4700             mov     eax, dword ptr [$479C2C]
+
+  To enable these references you need to check from Configuration|References tab the "Dump extra data and search for obj/prop references". When this is done during the processing of the proggie DeDe will load the target for a very short moment to read some data from its memory. If the target is not properly initialized no references will be shown and you also can have "List index out of bounds" exception when trying to disassemble a proc.
+
+3) Added simple pseudo code emulator that allows references like this:
+
+* Possible reference to Form1
+|
+00476F42   8B45FC                 mov     eax, [ebp-$04]
+
+
+4) Added new references to class virtual methods, dynamic methods and fields/properties. For now this is available only for Delphi 4 applications and only for a few base classes. The references looks like this:
+
+* Possible reference to property TControl.Name
+|
+00476FA6   8B4608                 mov     eax, [esi+$08]
+
+or
+
+* Possible reference to method TControl.SetParent
+|
+00476988   FF5164                 call    dword ptr [ecx+$64]
+
+
+To enable this you need to put the D4.DOI file into your DSF folder. It is possible some wrong references to be shown and also some references to not be shown. For now support is for TObject-TPersistent-TComponent-TControl vcl classes. Normaly if a class derived from TControl references will be OK. New classes will be added soon.
+
+5) Seek and dump additional procedures. They are shown as ~PROC~00453425 for example, where 00453425 is the RVA offset. Still not all procs are found and also they often are listed in wrong form, when the original pas file from where the procs do not contain any FDM data. To enable this option check "Dump additional non event hanlder procedures" checkbox in Configuration|References tab.
+
+6) Some bugs not related to GIU fixed.
+
+Final notes: Any bug reports are wellcome! Plese do not report things like "Invalid property reference is shown" because this is a very beta and i know there are invalid references !!! Also do not blame me i do not fix reported GUI bugs - they are not so important and will be fixed later. 
+

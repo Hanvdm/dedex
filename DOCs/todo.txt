@@ -1,0 +1,5 @@
+1) To give list with local procedure vars and global vars and allow user to change their name.
+2) DFM Editor. Allow editing (change, add, remove) properties to DFM resources of the application
+3) Show forms by just creating them
+4) To Implement fully functional project save/load
+5) To make the DOI parser public but first fix the class parser

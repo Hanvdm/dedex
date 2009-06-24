@@ -1,0 +1,2364 @@
+IBCtrls:
+
+TIBEventAlerter(TIBComponent)
+  OnEventAlert: TEventAlert
+
+Tabs:
+
+TTabSet(TCustomControl)
+  OnClick: TNotifyEvent
+  OnChange: TTabChangeEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawTab: TDrawTabEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnMeasureTab: TMeasureTabEvent
+  OnStartDrag: TStartDragEvent
+
+Outline:
+
+TOutline(TCustomOutline)
+  OnExpand: EOutlineChange
+  OnCollapse: EOutlineChange
+  OnDrawItem: TDrawItemEvent
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnStartDrag: TStartDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnDblClick: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+
+Tabnotbk:
+
+TTabbedNotebook(TCustomTabControl)
+  OnClick: TNotifyEvent
+  OnChange: TPageChangeEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+
+ExtCtrls:
+
+TNotebook(TCustomControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnPageChanged: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+THeader(TCustomControl)
+  OnSizing: TSectionEvent
+  OnSized: TSectionEvent
+
+FileCtrl:
+
+TFileListBox(TCustomListBox)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDirectoryListBox(TCustomListBox)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDriveComboBox(TCustomComboBox)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDropDown: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+
+TFilterComboBox(TCustomComboBox)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDropDown: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+
+Dialogs:
+
+TOpenDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnFolderChange: TNotifyEvent
+  OnSelectionChange: TNotifyEvent
+  OnTypeChange: TNotifyEvent
+
+TSaveDialog(TOpenDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnFolderChange: TNotifyEvent
+  OnSelectionChange: TNotifyEvent
+  OnTypeChange: TNotifyEvent
+
+ExtDlgs:
+
+TOpenPictureDialog(TOpenDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnFolderChange: TNotifyEvent
+  OnSelectionChange: TNotifyEvent
+  OnTypeChange: TNotifyEvent
+
+TSavePictureDialog(TOpenPictureDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnFolderChange: TNotifyEvent
+  OnSelectionChange: TNotifyEvent
+  OnTypeChange: TNotifyEvent
+
+Dialogs:
+
+TFontDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnApply: TFDApplyEvent
+
+TColorDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+
+TPrintDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+
+TPrinterSetupDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+
+TFindDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnFind: TNotifyEvent
+
+TReplaceDialog(TFindDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnFind: TNotifyEvent
+  OnReplace: TNotifyEvent
+
+ExtCtrls:
+
+TTimer(TComponent)
+  OnTimer: TNotifyEvent
+
+TPaintBox(TGraphicControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnPaint: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+MPlayer:
+
+TMediaPlayer(TCustomControl)
+  OnClick: EMPNotify
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnPostClick: EMPPostNotify
+  OnNotify: TNotifyEvent
+
+Menus:
+
+TMainMenu(TMenu)
+
+TPopupMenu(TMenu)
+  OnPopup: TNotifyEvent
+
+StdCtrls:
+
+TLabel(TCustomLabel)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TEdit(TCustomEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TMemo(TCustomMemo)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TButton(TButtonControl)
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TCheckBox(TCustomCheckBox)
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TRadioButton(TButtonControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TListBox(TCustomListBox)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawItem: TDrawItemEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMeasureItem: TMeasureItemEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TComboBox(TCustomComboBox)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawItem: TDrawItemEvent
+  OnDropDown: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMeasureItem: TMeasureItemEvent
+  OnStartDrag: TStartDragEvent
+
+TScrollBar(TWinControl)
+  OnChange: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnScroll: TScrollEvent
+  OnStartDrag: TStartDragEvent
+
+TGroupBox(TCustomGroupBox)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+ExtCtrls:
+
+TRadioGroup(TCustomRadioGroup)
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+TPanel(TCustomPanel)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+Buttons:
+
+TBitBtn(TButton)
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TSpeedButton(TGraphicControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+
+Mask:
+
+TMaskEdit(TCustomMaskEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+Grids:
+
+TStringGrid(TDrawGrid)
+  OnClick: TNotifyEvent
+  OnColumnMoved: TMovedEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawCell: TDrawCellEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnGetEditMask: TGetEditEvent
+  OnGetEditText: TGetEditEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnRowMoved: TMovedEvent
+  OnSelectCell: TSelectCellEvent
+  OnSetEditText: TSetEditEvent
+  OnStartDrag: TStartDragEvent
+  OnTopLeftChanged: TNotifyEvent
+
+TDrawGrid(TCustomGrid)
+  OnClick: TNotifyEvent
+  OnColumnMoved: TMovedEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawCell: TDrawCellEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnGetEditMask: TGetEditEvent
+  OnGetEditText: TGetEditEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnRowMoved: TMovedEvent
+  OnSelectCell: TSelectCellEvent
+  OnSetEditText: TSetEditEvent
+  OnStartDrag: TStartDragEvent
+  OnTopLeftChanged: TNotifyEvent
+
+ExtCtrls:
+
+TImage(TGraphicControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnProgress: TProgressEvent
+  OnStartDrag: TStartDragEvent
+
+TShape(TGraphicControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TBevel(TGraphicControl)
+
+Forms:
+
+TScrollBox(TScrollingWinControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+
+checklst:
+
+TCheckListBox(TCustomListBox)
+  OnClickCheck: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawItem: TDrawItemEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMeasureItem: TMeasureItemEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+ExtCtrls:
+
+TSplitter(TGraphicControl)
+  OnMoved: TNotifyEvent
+
+StdCtrls:
+
+TStaticText(TCustomStaticText)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+ComCtrls:
+
+TTabControl(TCustomTabControl)
+  OnChange: TNotifyEvent
+  OnChanging: TTabChangingEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TPageControl(TCustomTabControl)
+  OnChange: TNotifyEvent
+  OnChanging: TTabChangingEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+Controls:
+
+TImageList(TCustomImageList)
+  OnChange: TNotifyEvent
+
+ComCtrls:
+
+TRichEdit(TCustomRichEdit)
+  OnChange: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResizeRequest: TRichEditResizeEvent
+  OnSelectionChange: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnProtectChange: TRichEditProtectChange
+  OnSaveClipboard: TRichEditSaveClipboard
+
+TTrackBar(TWinControl)
+  OnChange: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+
+TProgressBar(TWinControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TUpDown(TCustomUpDown)
+  OnChanging: TUDChangingEvent
+  OnClick: TUDClickEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+
+THotKey(TCustomHotKey)
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+
+TAnimate(TWinControl)
+  OnOpen: TNotifyEvent
+  OnClose: TNotifyEvent
+  OnStart: TNotifyEvent
+  OnStop: TNotifyEvent
+
+TDateTimePicker(TWinControl)
+  OnClick: TNotifyEvent
+  OnCloseUp: TNotifyEvent
+  OnChange: TNotifyEvent
+  OnDropDown: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+  OnUserInput: TDTParseInputEvent
+
+TTreeView(TCustomTreeView)
+  OnEditing: TTVEditingEvent
+  OnEdited: TTVEditedEvent
+  OnExpanding: TTVExpandingEvent
+  OnExpanded: TTVExpandedEvent
+  OnCollapsing: TTVCollapsingEvent
+  OnCompare: TTVCompareEvent
+  OnCollapsed: TTVExpandedEvent
+  OnChanging: TTVChangingEvent
+  OnChange: TTVChangedEvent
+  OnDeletion: TTVExpandedEvent
+  OnGetImageIndex: TTVExpandedEvent
+  OnGetSelectedIndex: TTVExpandedEvent
+  OnClick: TNotifyEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnStartDrag: TStartDragEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnDblClick: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+
+TListView(TCustomListView)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnChange: TLVChangeEvent
+  OnChanging: TLVChangingEvent
+  OnColumnClick: TLVColumnClickEvent
+  OnCompare: TLVCompareEvent
+  OnDeletion: TLVDeletedEvent
+  OnEdited: TLVEditedEvent
+  OnEditing: TLVEditingEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnInsert: TLVDeletedEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnStartDrag: TStartDragEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+
+THeaderControl(TWinControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnDrawSection: TDrawSectionEvent
+  OnResize: TNotifyEvent
+  OnSectionClick: TSectionNotifyEvent
+  OnSectionResize: TSectionNotifyEvent
+  OnSectionTrack: TSectionTrackEvent
+  OnStartDrag: TStartDragEvent
+
+TStatusBar(TWinControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnDrawPanel: TDrawPanelEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+TToolBar(TToolWindow)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+TCoolBar(TToolWindow)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+OleCtnrs:
+
+TOleContainer(TCustomControl)
+  OnActivate: TNotifyEvent
+  OnDeactivate: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnObjectMove: TObjectMoveEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+DdeMan:
+
+TDdeClientConv(TComponent)
+  OnClose: TNotifyEvent
+  OnOpen: TNotifyEvent
+
+TDdeClientItem(TComponent)
+  OnChange: TNotifyEvent
+
+TDdeServerConv(TComponent)
+  OnOpen: TNotifyEvent
+  OnClose: TNotifyEvent
+  OnExecuteMacro: TMacroEvent
+
+TDdeServerItem(TComponent)
+  OnChange: TNotifyEvent
+  OnPokeData: TNotifyEvent
+
+ScktComp:
+
+TClientSocket(TCustomSocket)
+  OnLookup: TSocketNotifyEvent
+  OnConnecting: TSocketNotifyEvent
+  OnConnect: TSocketNotifyEvent
+  OnDisconnect: TSocketNotifyEvent
+  OnRead: TSocketNotifyEvent
+  OnWrite: TSocketNotifyEvent
+  OnError: TSocketErrorEvent
+
+TServerSocket(TCustomServerSocket)
+  OnListen: TSocketNotifyEvent
+  OnAccept: TSocketNotifyEvent
+  OnGetThread: TGetThreadEvent
+  OnGetSocket: TGetSocketEvent
+  OnThreadStart: TThreadNotifyEvent
+  OnThreadEnd: TThreadNotifyEvent
+  OnClientConnect: TSocketNotifyEvent
+  OnClientDisconnect: TSocketNotifyEvent
+  OnClientRead: TSocketNotifyEvent
+  OnClientWrite: TSocketNotifyEvent
+  OnClientError: TSocketErrorEvent
+
+HTTPApp:
+
+TWebDispatcher(TCustomWebDispatcher)
+  OnCreate: TNotifyEvent
+  OnDestroy: TNotifyEvent
+  BeforeDispatch: THTTPMethodEvent
+  AfterDispatch: THTTPMethodEvent
+
+TPageProducer(TCustomPageProducer)
+  OnHTMLTag: THTMLTagEvent
+
+DBWeb:
+
+TQueryTableProducer(TDSTableProducer)
+  OnCreateContent: TCreateContentEvent
+  OnFormatCell: THTMLFormatCellEvent
+  OnGetTableCaption: THTMLGetTableCaptionEvent
+
+TDataSetTableProducer(TDSTableProducer)
+  OnCreateContent: TCreateContentEvent
+  OnFormatCell: THTMLFormatCellEvent
+  OnGetTableCaption: THTMLGetTableCaptionEvent
+
+isp3:
+
+TFTP(TOleControl)
+  OnError: TFTPError
+  OnTimeout: TFTPTimeout
+  OnCancel: TNotifyEvent
+  OnStateChanged: TFTPStateChanged
+  OnProtocolStateChanged: TFTPProtocolStateChanged
+  OnBusy: TFTPBusy
+  OnLog: TNotifyEvent
+  OnDocInput: TFTPDocInput
+  OnDocOutput: TFTPDocOutput
+  OnAbort: TNotifyEvent
+  OnAccount: TNotifyEvent
+  OnChangeDir: TNotifyEvent
+  OnCreateDir: TNotifyEvent
+  OnDeleteDir: TNotifyEvent
+  OnDelFile: TNotifyEvent
+  OnHelp: TNotifyEvent
+  OnMode: TNotifyEvent
+  OnNoop: TNotifyEvent
+  OnParentDir: TNotifyEvent
+  OnPrintDir: TNotifyEvent
+  OnExecute: TNotifyEvent
+  OnStatus: TNotifyEvent
+  OnReinitialize: TNotifyEvent
+  OnSystem: TNotifyEvent
+  OnSite: TNotifyEvent
+  OnType_: TNotifyEvent
+  OnListItem: TFTPListItem
+  OnFirewallStateChanged: TFTPFirewallStateChanged
+
+THTML(TOleControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnMouseUp: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseDown: TMouseEvent
+  OnKeyUp: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyDown: TKeyEvent
+  OnDblClick: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnError: THTMLError
+  OnDocInput: THTMLDocInput
+  OnDocOutput: THTMLDocOutput
+  OnParseComplete: TNotifyEvent
+  OnLayoutComplete: TNotifyEvent
+  OnTimeout: TNotifyEvent
+  OnBeginRetrieval: TNotifyEvent
+  OnUpdateRetrieval: TNotifyEvent
+  OnEndRetrieval: TNotifyEvent
+  OnDoRequestDoc: THTMLDoRequestDoc
+  OnDoRequestEmbedded: THTMLDoRequestEmbedded
+  OnDoRequestSubmit: THTMLDoRequestSubmit
+  OnDoNewElement: THTMLDoNewElement
+
+THTTP(TOleControl)
+  OnError: THTTPError
+  OnTimeout: THTTPTimeout
+  OnCancel: TNotifyEvent
+  OnStateChanged: THTTPStateChanged
+  OnProtocolStateChanged: THTTPProtocolStateChanged
+  OnBusy: THTTPBusy
+  OnLog: TNotifyEvent
+  OnDocInput: THTTPDocInput
+  OnDocOutput: THTTPDocOutput
+
+TNNTP(TOleControl)
+  OnError: TNNTPError
+  OnTimeout: TNNTPTimeout
+  OnCancel: TNotifyEvent
+  OnStateChanged: TNNTPStateChanged
+  OnProtocolStateChanged: TNNTPProtocolStateChanged
+  OnBusy: TNNTPBusy
+  OnLog: TNotifyEvent
+  OnDocInput: TNNTPDocInput
+  OnDocOutput: TNNTPDocOutput
+  OnAuthenticateRequest: TNNTPAuthenticateRequest
+  OnAuthenticateResponse: TNNTPAuthenticateResponse
+  OnBanner: TNNTPBanner
+  OnSelectGroup: TNNTPSelectGroup
+  OnNextArticle: TNNTPNextArticle
+  OnlastArticle: TNNTPlastArticle
+  OnArticleStatus: TNNTPArticleStatus
+
+TPOP(TOleControl)
+  OnError: TPOPError
+  OnTimeout: TPOPTimeout
+  OnCancel: TNotifyEvent
+  OnStateChanged: TPOPStateChanged
+  OnProtocolStateChanged: TPOPProtocolStateChanged
+  OnBusy: TPOPBusy
+  OnLog: TNotifyEvent
+  OnDocOutput: TPOPDocOutput
+  OnMessageSize: TPOPMessageSize
+  OnDelete: TNotifyEvent
+  OnReset: TNotifyEvent
+  OnLast: TPOPLast
+  OnNoop: TNotifyEvent
+  OnRefreshMessageCount: TPOPRefreshMessageCount
+
+TSMTP(TOleControl)
+  OnError: TSMTPError
+  OnTimeout: TSMTPTimeout
+  OnCancel: TNotifyEvent
+  OnStateChanged: TSMTPStateChanged
+  OnProtocolStateChanged: TSMTPProtocolStateChanged
+  OnBusy: TSMTPBusy
+  OnLog: TNotifyEvent
+  OnDocInput: TSMTPDocInput
+  OnReset: TNotifyEvent
+  OnVerify: TNotifyEvent
+  OnExpand: TNotifyEvent
+  OnHelp: TNotifyEvent
+  OnNoop: TNotifyEvent
+
+TTCP(TOleControl)
+  OnError: TTCPError
+  OnDataArrival: TTCPDataArrival
+  OnConnect: TNotifyEvent
+  OnConnectionRequest: TTCPConnectionRequest
+  OnClose: TNotifyEvent
+  OnSendProgress: TTCPSendProgress
+  OnSendComplete: TNotifyEvent
+
+TUDP(TOleControl)
+  OnError: TUDPError
+  OnDataArrival: TUDPDataArrival
+
+MIDASCon:
+
+TMIDASConnection(TRemoteServer)
+  AfterConnect: TNotifyEvent
+  AfterDisconnect: TNotifyEvent
+  BeforeConnect: TNotifyEvent
+  BeforeDisconnect: TNotifyEvent
+
+Db:
+
+TDataSource(TComponent)
+  OnStateChange: TNotifyEvent
+  OnDataChange: TDataChangeEvent
+  OnUpdateData: TNotifyEvent
+
+DBTables:
+
+TTable(TDBDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+TQuery(TDBDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+TStoredProc(TDBDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+TDatabase(TComponent)
+  OnLogin: TLoginEvent
+
+TSession(TComponent)
+  OnPassword: TPasswordEvent
+  OnStartup: TNotifyEvent
+
+TBatchMove(TComponent)
+
+TUpdateSQL(TDataSetUpdateObject)
+
+DBGrids:
+
+TDBGrid(TCustomDBGrid)
+  OnCellClick: TDBGridClickEvent
+  OnColEnter: TNotifyEvent
+  OnColExit: TNotifyEvent
+  OnColumnMoved: TMovedEvent
+  OnDrawDataCell: TDrawDataCellEvent
+  OnDrawColumnCell: TDrawColumnCellEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEditButtonClick: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+  OnTitleClick: TDBGridClickEvent
+
+DBCtrls:
+
+TDBNavigator(TCustomPanel)
+  BeforeAction: ENavClick
+  OnClick: ENavClick
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+TDBText(TCustomLabel)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBEdit(TCustomMaskEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBMemo(TCustomMemo)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBImage(TCustomControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBListBox(TCustomListBox)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawItem: TDrawItemEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMeasureItem: TMeasureItemEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBComboBox(TCustomComboBox)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawItem: TDrawItemEvent
+  OnDropDown: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMeasureItem: TMeasureItemEvent
+  OnStartDrag: TStartDragEvent
+
+TDBCheckBox(TCustomCheckBox)
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBRadioGroup(TCustomRadioGroup)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+TDBLookupListBox(TDBLookupControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBLookupComboBox(TDBLookupControl)
+  OnClick: TNotifyEvent
+  OnCloseUp: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDropDown: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+TDBRichEdit(TCustomRichEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResizeRequest: TRichEditResizeEvent
+  OnSelectionChange: TNotifyEvent
+  OnProtectChange: TRichEditProtectChange
+  OnSaveClipboard: TRichEditSaveClipboard
+  OnStartDrag: TStartDragEvent
+
+DBLookup:
+
+TDBLookupList(TCustomDBGrid)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+
+TDBLookupCombo(TCustomEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDropDown: TNotifyEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+Report:
+
+TReport(TComponent)
+
+DBCGrids:
+
+TDBCtrlGrid(TWinControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnPaintPanel: TPaintPanelEvent
+  OnStartDrag: TStartDragEvent
+
+BdeProv:
+
+TProvider(TCustomProvider)
+  OnUpdateError: TResolverErrorEvent
+  OnDataRequest: TDataRequestEvent
+  OnGetData: TProviderDataEvent
+  OnUpdateData: TProviderDataEvent
+
+DBClient:
+
+TClientDataSet(TDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnReconcileError: TReconcileErrorEvent
+
+TRemoteServer(TCustomRemoteServer)
+  AfterConnect: TNotifyEvent
+  AfterDisconnect: TNotifyEvent
+  BeforeConnect: TNotifyEvent
+  BeforeDisconnect: TNotifyEvent
+
+Gauges:
+
+TGauge(TGraphicControl)
+
+ColorGrd:
+
+TColorGrid(TCustomControl)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+Spin:
+
+TSpinButton(TWinControl)
+  OnDownClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnUpClick: TNotifyEvent
+
+TSpinEdit(TCustomEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+DirOutln:
+
+TDirectoryOutline(TCustomOutline)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnCollapse: EOutlineChange
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDrawItem: TDrawItemEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnExpand: EOutlineChange
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+Calendar:
+
+TCalendar(TCustomGrid)
+  OnClick: TNotifyEvent
+  OnChange: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnStartDrag: TStartDragEvent
+
+chartfx3:
+
+TChartfx(TOleControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnLButtonDblClk: TChartfxLButtonDblClk
+  OnRButtonDown: TChartfxRButtonDown
+  OnChangeValue: TChartfxChangeValue
+  OnChangeString: TChartfxChangeString
+  OnChangeColor: TChartfxChangeColor
+  OnDestroy: TNotifyEvent
+  OnReadFile: TNotifyEvent
+  OnChangePalette: TChartfxChangePalette
+  OnChangeFont: TChartfxChangeFont
+  OnReadTemplate: TNotifyEvent
+  OnChangePattern: TChartfxChangePattern
+  OnChangePattPal: TChartfxChangePattPal
+  OnMenu: TChartfxMenu
+  OnChangeType: TChartfxChangeType
+  OnUserScroll: TChartfxUserScroll
+  OnGetLegend: TChartfxGetLegend
+
+vcspell3:
+
+TVSSpell(TOleControl)
+  OnMisspelled: TVSSpellMisspelled
+  OnComplete: TVSSpellComplete
+  OnFound: TVSSpellFound
+  OnBeforeReplace: TVSSpellBeforeReplace
+  OnAfterReplace: TVSSpellAfterReplace
+  OnAfterPopup: TVSSpellAfterPopup
+  OnCheckStatus: TVSSpellCheckStatus
+  OnCheckError: TVSSpellCheckError
+  OnClickIn: TVSSpellClickIn
+  OnClickOut: TVSSpellClickOut
+
+vcf1:
+
+TF1Book(TOleControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnMouseUp: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseDown: TMouseEvent
+  OnKeyUp: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyDown: TKeyEvent
+  OnClick: TF1BookClick
+  OnDblClick: TF1BookDblClick
+  OnCancelEdit: TNotifyEvent
+  OnSelChange: TNotifyEvent
+  OnStartEdit: TF1BookStartEdit
+  OnEndEdit: TF1BookEndEdit
+  OnStartRecalc: TNotifyEvent
+  OnEndRecalc: TNotifyEvent
+  OnTopLeftChanged: TNotifyEvent
+  OnObjClick: TF1BookObjClick
+  OnObjDblClick: TF1BookObjDblClick
+  OnRClick: TF1BookRClick
+  OnRDblClick: TF1BookRDblClick
+  OnObjValueChanged: TF1BookObjValueChanged
+  OnModified: TNotifyEvent
+  OnObjGotFocus: TF1BookObjGotFocus
+  OnObjLostFocus: TF1BookObjLostFocus
+  OnValidationFailed: TF1BookValidationFailed
+
+vcfi:
+
+TVtChart(TOleControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnMouseUp: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseDown: TMouseEvent
+  OnKeyUp: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyDown: TKeyEvent
+  OnDblClick: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnChartSelected: TVtChartChartSelected
+  OnTitleSelected: TVtChartTitleSelected
+  OnFootnoteSelected: TVtChartFootnoteSelected
+  OnLegendSelected: TVtChartLegendSelected
+  OnPlotSelected: TVtChartPlotSelected
+  OnAxisSelected: TVtChartAxisSelected
+  OnAxisLabelSelected: TVtChartAxisLabelSelected
+  OnAxisTitleSelected: TVtChartAxisTitleSelected
+  OnPointSelected: TVtChartPointSelected
+  OnPointLabelSelected: TVtChartPointLabelSelected
+  OnSeriesSelected: TVtChartSeriesSelected
+  OnSeriesLabelSelected: TVtChartSeriesLabelSelected
+  OnChartActivated: TVtChartChartActivated
+  OnTitleActivated: TVtChartTitleActivated
+  OnFootnoteActivated: TVtChartFootnoteActivated
+  OnLegendActivated: TVtChartLegendActivated
+  OnPlotActivated: TVtChartPlotActivated
+  OnAxisActivated: TVtChartAxisActivated
+  OnAxisLabelActivated: TVtChartAxisLabelActivated
+  OnAxisTitleActivated: TVtChartAxisTitleActivated
+  OnPointActivated: TVtChartPointActivated
+  OnPointLabelActivated: TVtChartPointLabelActivated
+  OnSeriesActivated: TVtChartSeriesActivated
+  OnSeriesLabelActivated: TVtChartSeriesLabelActivated
+  OnApplyChanges: TNotifyEvent
+
+graphsv3:
+
+TGraph(TOleControl)
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+  OnMouseUp: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseDown: TMouseEvent
+  OnKeyUp: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyDown: TKeyEvent
+  OnDblClick: TNotifyEvent
+  OnClick: TNotifyEvent
+
+quickrpt:
+
+TQuickRep(TQRBasePanel)
+  AfterPrint: TQRAfterPrintEvent
+  AfterPreview: TQRAfterPreviewEvent
+  BeforePrint: TQRReportBeforePrintEvent
+  OnEndPage: TQRNotifyEvent
+  OnNeedData: TQROnNeedDataEvent
+  OnPreview: TNotifyEvent
+  OnStartPage: TQRNotifyEvent
+
+TQRSubDetail(TQRControllerBand)
+  AfterPrint: TQRBandAfterPrintEvent
+  BeforePrint: TQRBandBeforePrintEvent
+  OnNeedData: TQROnNeedDataEvent
+
+TQRBand(TQRCustomBand)
+  AfterPrint: TQRBandAfterPrintEvent
+  BeforePrint: TQRBandBeforePrintEvent
+
+TQRChildBand(TQRCustomBand)
+  AfterPrint: TQRBandAfterPrintEvent
+  BeforePrint: TQRBandBeforePrintEvent
+
+TQRGroup(TQRCustomBand)
+  AfterPrint: TQRBandAfterPrintEvent
+  BeforePrint: TQRBandBeforePrintEvent
+
+Qrctrls:
+
+TQRLabel(TQRCustomLabel)
+  OnPrint: TQRLabelOnPrintEvent
+
+TQRDBText(TQRCustomLabel)
+  OnPrint: TQRLabelOnPrintEvent
+
+TQRExpr(TQRCustomLabel)
+  OnPrint: TQRLabelOnPrintEvent
+
+TQRSysData(TQRCustomLabel)
+  OnPrint: TQRLabelOnPrintEvent
+
+TQRMemo(TQRCustomLabel)
+
+TQRRichText(TQRCustomRichText)
+
+TQRDBRichText(TQRCustomRichText)
+
+TQRShape(TQRPrintable)
+
+TQRImage(TQRPrintable)
+
+TQRDBImage(TQRPrintable)
+
+quickrpt:
+
+TQRCompositeReport(TComponent)
+  OnAddReports: TNotifyEvent
+  OnFinished: TNotifyEvent
+
+qrprntr:
+
+TQRPreview(TScrollBox)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnPageAvailable: TQRPageAvailableEvent
+  OnProgressUpdate: TQRProgressUpdateEvent
+
+QrTee:
+
+TQRChart(TQRPrintable)
+
+Chart:
+
+TChart(TCustomChart)
+  OnAllowScroll: TChartAllowScrollEvent
+  OnClickAxis: TChartClickAxis
+  OnClickLegend: TChartClick
+  OnClickSeries: TChartClickSeries
+  OnClickBackground: TChartClick
+  OnGetLegendPos: TOnGetLegendPos
+  OnGetLegendRect: TOnGetLegendRect
+  OnScroll: TNotifyEvent
+  OnUndoZoom: TNotifyEvent
+  OnZoom: TNotifyEvent
+  OnAfterDraw: TNotifyEvent
+  OnGetAxisLabel: TAxisOnGetLabel
+  OnGetLegendText: TOnGetLegendText
+  OnGetNextAxisLabel: TAxisOnGetNextLabel
+  OnPageChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+DBChart:
+
+TDBChart(TCustomDBChart)
+  OnProcessRecord: TProcessRecordEvent
+  OnAllowScroll: TChartAllowScrollEvent
+  OnClickAxis: TChartClickAxis
+  OnClickLegend: TChartClick
+  OnClickSeries: TChartClickSeries
+  OnClickBackground: TChartClick
+  OnGetLegendPos: TOnGetLegendPos
+  OnGetLegendRect: TOnGetLegendRect
+  OnScroll: TNotifyEvent
+  OnUndoZoom: TNotifyEvent
+  OnZoom: TNotifyEvent
+  OnAfterDraw: TNotifyEvent
+  OnGetAxisLabel: TAxisOnGetLabel
+  OnGetLegendText: TOnGetLegendText
+  OnGetNextAxisLabel: TAxisOnGetNextLabel
+  OnPageChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+mxDB:
+
+TDecisionCube(TCustomDataStore)
+  OnLowCapacity: TCapacityErrorEvent
+  BeforeOpen: TCubeNotifyEvent
+  AfterOpen: TCubeNotifyEvent
+  BeforeClose: TCubeNotifyEvent
+  AfterClose: TCubeNotifyEvent
+  OnRefresh: TCubeRefreshEvent
+
+mxtables:
+
+TDecisionQuery(TQuery)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+mxDB:
+
+TDecisionSource(TComponent)
+  OnStateChange: TNotifyEvent
+  OnNewDimensions: TNotifyEvent
+  OnLayoutChange: TNotifyEvent
+  OnSummaryChange: TNotifyEvent
+  OnBeforePivot: TNotifyEvent
+  OnAfterPivot: TNotifyEvent
+
+mxpivsrc:
+
+TDecisionPivot(TCustomPanel)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+mxgrid:
+
+TDecisionGrid(TCustomDecisionGrid)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnDecisionDrawCell: TDecisionDrawCellEvent
+  OnDecisionExamineCell: TDecisionExamineCellEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+  OnTopLeftChanged: TNotifyEvent
+
+mxgraph:
+
+TDecisionGraph(TCustomDecisionGraph)
+  OnAllowScroll: TChartAllowScrollEvent
+  OnClickAxis: TChartClickAxis
+  OnClickLegend: TChartClick
+  OnClickSeries: TChartClickSeries
+  OnClickBackground: TChartClick
+  OnGetLegendPos: TOnGetLegendPos
+  OnGetLegendRect: TOnGetLegendRect
+  OnScroll: TNotifyEvent
+  OnUndoZoom: TNotifyEvent
+  OnZoom: TNotifyEvent
+  OnAfterDraw: TNotifyEvent
+  OnGetAxisLabel: TAxisOnGetLabel
+  OnGetLegendText: TOnGetLegendText
+  OnGetNextAxisLabel: TAxisOnGetNextLabel
+  OnPageChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnResize: TNotifyEvent
+  OnStartDrag: TStartDragEvent
+
+FloatEd:
+
+TFloatEdit(TEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+SpnHexEd:
+
+TSpinHexEdit(TSpinEdit)
+  OnChange: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+
+BDELists:
+
+TBDEList(TBDEDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+TDrvList(TBDEDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+TDBList(TDBDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+TTblList(TDBDataSet)
+  BeforeOpen: TDataSetNotifyEvent
+  AfterOpen: TDataSetNotifyEvent
+  BeforeClose: TDataSetNotifyEvent
+  AfterClose: TDataSetNotifyEvent
+  BeforeInsert: TDataSetNotifyEvent
+  AfterInsert: TDataSetNotifyEvent
+  BeforeEdit: TDataSetNotifyEvent
+  AfterEdit: TDataSetNotifyEvent
+  BeforePost: TDataSetNotifyEvent
+  AfterPost: TDataSetNotifyEvent
+  BeforeCancel: TDataSetNotifyEvent
+  AfterCancel: TDataSetNotifyEvent
+  BeforeDelete: TDataSetNotifyEvent
+  AfterDelete: TDataSetNotifyEvent
+  BeforeScroll: TDataSetNotifyEvent
+  AfterScroll: TDataSetNotifyEvent
+  OnCalcFields: TDataSetNotifyEvent
+  OnDeleteError: TDataSetErrorEvent
+  OnEditError: TDataSetErrorEvent
+  OnFilterRecord: TFilterRecordEvent
+  OnNewRecord: TDataSetNotifyEvent
+  OnPostError: TDataSetErrorEvent
+  OnServerYield: TOnServerYieldEvent
+  OnUpdateError: TUpdateErrorEvent
+  OnUpdateRecord: TUpdateRecordEvent
+
+ScaleCtl:
+
+TScaleControl(TCustomControl)
+  OnClick: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnEndDrag: TEndDragEvent
+  OnEnter: TNotifyEvent
+  OnExit: TNotifyEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnStartDrag: TStartDragEvent
+  OnScalePaintEvent: TOnScalePaintEvent
+
+PgSetup:
+
+TPageSetupDialog(TCommonDialog)
+  OnClose: TNotifyEvent
+  OnShow: TNotifyEvent
+  OnPrinter: TPSPrinterEvent
+  OnInitPaintPage: TPSInitPaintPageEvent
+  OnPaintPage: TPSPaintPageEvent
+
+Forms:
+
+TForm(TCustomForm)
+  OnActivate: TNotifyEvent
+  OnClick: TNotifyEvent
+  OnClose: TCloseEvent
+  OnCloseQuery: TCloseQueryEvent
+  OnCreate: TNotifyEvent
+  OnDblClick: TNotifyEvent
+  OnDestroy: TNotifyEvent
+  OnDeactivate: TNotifyEvent
+  OnDragDrop: TDragDropEvent
+  OnDragOver: TDragOverEvent
+  OnHide: TNotifyEvent
+  OnHelp: THelpEvent
+  OnKeyDown: TKeyEvent
+  OnKeyPress: TKeyPressEvent
+  OnKeyUp: TKeyEvent
+  OnMouseDown: TMouseEvent
+  OnMouseMove: TMouseMoveEvent
+  OnMouseUp: TMouseEvent
+  OnPaint: TNotifyEvent
+  OnResize: TNotifyEvent
+  OnShow: TNotifyEvent
+
+TDataModule(TComponent)
+  OnCreate: TNotifyEvent
+  OnDestroy: TNotifyEvent
+
+
+type
+
+EMPNotify=procedure(Sender: TObject; Button: TMPBtnType; var DoDefault: Boolean);
+EMPPostNotify=procedure(Sender: TObject; Button: TMPBtnType);
+ENavClick=procedure(Sender: TObject; Button: TNavigateBtn);
+EOutlineChange=procedure(Sender: TObject; Index: Integer);
+TAxisOnGetLabel=procedure(Sender: TChartAxis; Series: TChartSeries; ValueIndex: Integer; var LabelText: String);
+TAxisOnGetNextLabel=procedure(Sender: TChartAxis; LabelIndex: Integer; var LabelValue: Double; var Stop: Boolean);
+TCapacityErrorEvent=procedure(var Action: TErrorAction);
+TChartAllowScrollEvent=procedure(Sender: TChartAxis; var AMin: Double; var AMax: Double; var AllowScroll: Boolean);
+TChartClick=procedure(Sender: TCustomChart; Button: TMouseButton; Shift: TShiftState; X: Integer; Y: Integer);
+TChartClickAxis=procedure(Sender: TCustomChart; Axis: TChartAxis; Button: TMouseButton; Shift: TShiftState; X: Integer; Y: Integer);
+TChartClickSeries=procedure(Sender: TCustomChart; Series: TChartSeries; ValueIndex: Integer; Button: TMouseButton; Shift: TShiftState; X: Integer; Y: Integer);
+TChartfxChangeColor=procedure(Sender: TObject; nType: Smallint; nIndex: Smallint; var nRes: Smallint);
+TChartfxChangeFont=procedure(Sender: TObject; nIndex: Smallint; var nRes: Smallint);
+TChartfxChangePalette=procedure(Sender: TObject; nIndex: Smallint; var nRes: Smallint);
+TChartfxChangePattern=procedure(Sender: TObject; nType: Smallint; nIndex: Smallint; var nRes: Smallint);
+TChartfxChangePattPal=procedure(Sender: TObject; nIndex: Smallint; var nRes: Smallint);
+TChartfxChangeString=procedure(Sender: TObject; nType: Smallint; nIndex: Integer; var nRes: Smallint);
+TChartfxChangeType=procedure(Sender: TObject; nType: Smallint; var nRes: Smallint);
+TChartfxChangeValue=procedure(Sender: TObject; dValue: Double; nSerie: Smallint; nPoint: Integer; var nRes: Smallint);
+TChartfxGetLegend=procedure(Sender: TObject; nType: Smallint; var nRes: Smallint);
+TChartfxLButtonDblClk=procedure(Sender: TObject; x: Smallint; y: Smallint; nSerie: Smallint; nPoint: Integer; var nRes: Smallint);
+TChartfxMenu=procedure(Sender: TObject; wParam: Integer; nSerie: Smallint; nPoint: Integer; var nRes: Smallint);
+TChartfxRButtonDown=procedure(Sender: TObject; x: Smallint; y: Smallint; nSerie: Smallint; nPoint: Integer; var nRes: Smallint);
+TChartfxUserScroll=procedure(Sender: TObject; wScrollMsg: Integer; wScrollParam: Integer; var nRes: Smallint);
+TCloseEvent=procedure(Sender: TObject; var Action: TCloseAction);
+TCloseQueryEvent=procedure(Sender: TObject; var CanClose: Boolean);
+TCreateContentEvent=procedure(Sender: TObject; var Continue: Boolean);
+TCubeNotifyEvent=procedure(DataCube: TCustomDataStore);
+TCubeRefreshEvent=procedure(DataCube: TCustomDataStore; DimMap: TCubeDims);
+TDataChangeEvent=procedure(Sender: TObject; Field: TField);
+TDataRequestEvent=function(Sender: TObject; ref Input: OleVariant): OleVariant;
+TDataSetErrorEvent=procedure(DataSet: TDataSet; E: EDatabaseError; var Action: TDataAction);
+TDataSetNotifyEvent=procedure(DataSet: TDataSet);
+TDBGridClickEvent=procedure(Column: TColumn);
+TDecisionDrawCellEvent=procedure(Sender: TObject; Col: Integer; Row: Integer; var Value: String; var aFont: TFont; var aColor: TColor; AState: TGridDrawState; aDrawState: TDecisionDrawState);
+TDecisionExamineCellEvent=procedure(Sender: TObject; iCol: Integer; iRow: Integer; iSum: Integer; const ValueArray: TValueArray);
+TDragDropEvent=procedure(Sender: TObject; Source: TObject; X: Integer; Y: Integer);
+TDragOverEvent=procedure(Sender: TObject; Source: TObject; X: Integer; Y: Integer; State: TDragState; var Accept: Boolean);
+TDrawCellEvent=procedure(Sender: TObject; Col: Integer; Row: Integer; ref Rect: TRect; State: TGridDrawState);
+TDrawColumnCellEvent=procedure(Sender: TObject; const ref Rect: TRect; DataCol: Integer; Column: TColumn; State: TGridDrawState);
+TDrawDataCellEvent=procedure(Sender: TObject; const ref Rect: TRect; Field: TField; State: TGridDrawState);
+TDrawItemEvent=procedure(Control: TWinControl; Index: Integer; ref Rect: TRect; State: TOwnerDrawState);
+TDrawPanelEvent=procedure(StatusBar: TStatusBar; Panel: TStatusPanel; const ref Rect: TRect);
+TDrawSectionEvent=procedure(HeaderControl: THeaderControl; Section: THeaderSection; const ref Rect: TRect; Pressed: Boolean);
+TDrawTabEvent=procedure(Sender: TObject; TabCanvas: TCanvas; ref R: TRect; Index: Integer; Selected: Boolean);
+TDTParseInputEvent=procedure(Sender: TObject; const UserString: String; var DateAndTime: TDateTime; var AllowChange: Boolean);
+TEndDragEvent=procedure(Sender: TObject; Target: TObject; X: Integer; Y: Integer);
+TEventAlert=procedure(Sender: TObject; EventName: String; EventCount: Integer; var CancelAlerts: Boolean);
+TF1BookClick=procedure(Sender: TObject; nRow: Integer; nCol: Integer);
+TF1BookDblClick=procedure(Sender: TObject; nRow: Integer; nCol: Integer);
+TF1BookEndEdit=procedure(Sender: TObject; var EditString: WideString; var Cancel: Smallint);
+TF1BookObjClick=procedure(Sender: TObject; var ObjName: WideString; ObjID: Integer);
+TF1BookObjDblClick=procedure(Sender: TObject; var ObjName: WideString; ObjID: Integer);
+TF1BookObjGotFocus=procedure(Sender: TObject; var ObjName: WideString; ObjID: Integer);
+TF1BookObjLostFocus=procedure(Sender: TObject; var ObjName: WideString; ObjID: Integer);
+TF1BookObjValueChanged=procedure(Sender: TObject; var ObjName: WideString; ObjID: Integer);
+TF1BookRClick=procedure(Sender: TObject; nRow: Integer; nCol: Integer);
+TF1BookRDblClick=procedure(Sender: TObject; nRow: Integer; nCol: Integer);
+TF1BookStartEdit=procedure(Sender: TObject; var EditString: WideString; var Cancel: Smallint);
+TF1BookValidationFailed=procedure(Sender: TObject; var pEntry: WideString; nSheet: Integer; nRow: Integer; nCol: Integer; var pShowMessage: WideString; var pAction: Smallint);
+TFDApplyEvent=procedure(Sender: TObject; Wnd: Integer);
+TFilterRecordEvent=procedure(DataSet: TDataSet; var Accept: Boolean);
+TFTPBusy=procedure(Sender: TObject; isBusy: WordBool);
+TFTPDocInput=procedure(Sender: TObject; const DocInput: DocInput);
+TFTPDocOutput=procedure(Sender: TObject; const DocOutput: DocOutput);
+TFTPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+TFTPFirewallStateChanged=procedure(Sender: TObject; sFirewallState: Smallint);
+TFTPListItem=procedure(Sender: TObject; const Item: FTPDirItem);
+TFTPProtocolStateChanged=procedure(Sender: TObject; ProtocolState: Smallint);
+TFTPStateChanged=procedure(Sender: TObject; State: Smallint);
+TFTPTimeout=procedure(Sender: TObject; event: Smallint; var Continue: WordBool);
+TGetEditEvent=procedure(Sender: TObject; ACol: Integer; ARow: Integer; var Value: String);
+TGetSocketEvent=procedure(Sender: TObject; Socket: Integer; var ClientSocket: TServerClientWinSocket);
+TGetThreadEvent=procedure(Sender: TObject; ClientSocket: TServerClientWinSocket; var SocketThread: TServerClientThread);
+THelpEvent=function(Command: Word; Data: Integer; var CallHelp: Boolean): Boolean;
+THTMLDocInput=procedure(Sender: TObject; const DocInput: DocInput);
+THTMLDocOutput=procedure(Sender: TObject; const DocOutput: DocOutput);
+THTMLDoNewElement=procedure(Sender: TObject; const ElemType: WideString; EndTag: WordBool; const Attrs: HTMLAttrs; const text: WideString; var EnableDefault: WordBool);
+THTMLDoRequestDoc=procedure(Sender: TObject; const URL: WideString; const Element: HTMLElement; const DocInput: DocInput; var EnableDefault: WordBool);
+THTMLDoRequestEmbedded=procedure(Sender: TObject; const URL: WideString; const Element: HTMLElement; const DocInput: DocInput; var EnableDefault: WordBool);
+THTMLDoRequestSubmit=procedure(Sender: TObject; const URL: WideString; const Form: HTMLForm; const DocOutput: DocOutput; var EnableDefault: WordBool);
+THTMLError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+THTMLFormatCellEvent=procedure(Sender: TObject; CellRow: Integer; CellColumn: Integer; var BgColor: THTMLBgColor; var Align: THTMLAlign; var VAlign: THTMLVAlign; var CustomAttrs: String; var CellData: String);
+THTMLGetTableCaptionEvent=procedure(Sender: TObject; var Caption: String; var Alignment: THTMLCaptionAlignment);
+THTMLTagEvent=procedure(Sender: TObject; Tag: TTag; const TagString: String; TagParams: TStrings; var ReplaceText: String);
+THTTPBusy=procedure(Sender: TObject; isBusy: WordBool);
+THTTPDocInput=procedure(Sender: TObject; const DocInput: DocInput);
+THTTPDocOutput=procedure(Sender: TObject; const DocOutput: DocOutput);
+THTTPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+THTTPMethodEvent=procedure(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
+THTTPProtocolStateChanged=procedure(Sender: TObject; ProtocolState: Smallint);
+THTTPStateChanged=procedure(Sender: TObject; State: Smallint);
+THTTPTimeout=procedure(Sender: TObject; event: Smallint; var Continue: WordBool);
+TKeyEvent=procedure(Sender: TObject; var Key: Word; Shift: TShiftState);
+TKeyPressEvent=procedure(Sender: TObject; var Key: Char);
+TLoginEvent=procedure(Database: TDatabase; LoginParams: TStrings);
+TLVChangeEvent=procedure(Sender: TObject; Item: TListItem; Change: TItemChange);
+TLVChangingEvent=procedure(Sender: TObject; Item: TListItem; Change: TItemChange; var AllowChange: Boolean);
+TLVColumnClickEvent=procedure(Sender: TObject; Column: TListColumn);
+TLVCompareEvent=procedure(Sender: TObject; Item1: TListItem; Item2: TListItem; Data: Integer; var Compare: Integer);
+TLVDeletedEvent=procedure(Sender: TObject; Item: TListItem);
+TLVEditedEvent=procedure(Sender: TObject; Item: TListItem; var S: String);
+TLVEditingEvent=procedure(Sender: TObject; Item: TListItem; var AllowEdit: Boolean);
+TMacroEvent=procedure(Sender: TObject; Msg: TStrings);
+TMeasureItemEvent=procedure(Control: TWinControl; Index: Integer; var Height: Integer);
+TMeasureTabEvent=procedure(Sender: TObject; Index: Integer; var TabWidth: Integer);
+TMouseEvent=procedure(Sender: TObject; Button: TMouseButton; Shift: TShiftState; X: Integer; Y: Integer);
+TMouseMoveEvent=procedure(Sender: TObject; Shift: TShiftState; X: Integer; Y: Integer);
+TMovedEvent=procedure(Sender: TObject; FromIndex: Integer; ToIndex: Integer);
+TNNTPArticleStatus=procedure(Sender: TObject; articleNumber: Integer; const messageID: WideString);
+TNNTPAuthenticateRequest=procedure(Sender: TObject; var UserId: WideString; var Password: WideString);
+TNNTPAuthenticateResponse=procedure(Sender: TObject; Authenticated: WordBool);
+TNNTPBanner=procedure(Sender: TObject; const Banner: WideString);
+TNNTPBusy=procedure(Sender: TObject; isBusy: WordBool);
+TNNTPDocInput=procedure(Sender: TObject; const DocInput: DocInput);
+TNNTPDocOutput=procedure(Sender: TObject; const DocOutput: DocOutput);
+TNNTPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+TNNTPlastArticle=procedure(Sender: TObject; articleNumber: Integer; const messageID: WideString);
+TNNTPNextArticle=procedure(Sender: TObject; articleNumber: Integer; const messageID: WideString);
+TNNTPProtocolStateChanged=procedure(Sender: TObject; ProtocolState: Smallint);
+TNNTPSelectGroup=procedure(Sender: TObject; const groupName: WideString; firstMessage: Integer; lastMessage: Integer; msgCount: Integer);
+TNNTPStateChanged=procedure(Sender: TObject; State: Smallint);
+TNNTPTimeout=procedure(Sender: TObject; event: Smallint; var Continue: WordBool);
+TNotifyEvent=procedure(Sender: TObject);
+TObjectMoveEvent=procedure(OleContainer: TOleContainer; const ref Bounds: TRect);
+TOnGetLegendPos=procedure(Sender: TCustomChart; Index: Integer; var X: Integer; var Y: Integer; var XColor: Integer);
+TOnGetLegendRect=procedure(Sender: TCustomChart; var ref Rect: TRect);
+TOnGetLegendText=procedure(Sender: TCustomAxisPanel; LegendStyle: TLegendStyle; Index: Integer; var LegendText: String);
+TOnScalePaintEvent=procedure(Sender: TScaleControl; SelOnly: Boolean);
+TOnServerYieldEvent=procedure(DataSet: TDataSet; var AbortQuery: Boolean);
+TPageChangeEvent=procedure(Sender: TObject; NewTab: Integer; var AllowChange: Boolean);
+TPaintPanelEvent=procedure(DBCtrlGrid: TDBCtrlGrid; Index: Integer);
+TPasswordEvent=procedure(Sender: TObject; var Continue: Boolean);
+TPOPBusy=procedure(Sender: TObject; isBusy: WordBool);
+TPOPDocOutput=procedure(Sender: TObject; const DocOutput: DocOutput);
+TPOPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+TPOPLast=procedure(Sender: TObject; Number: Integer);
+TPOPMessageSize=procedure(Sender: TObject; msgSize: Integer);
+TPOPProtocolStateChanged=procedure(Sender: TObject; ProtocolState: Smallint);
+TPOPRefreshMessageCount=procedure(Sender: TObject; Number: Integer);
+TPOPStateChanged=procedure(Sender: TObject; State: Smallint);
+TPOPTimeout=procedure(Sender: TObject; event: Smallint; var Continue: WordBool);
+TProcessRecordEvent=procedure(Sender: TCustomDBChart; DataSet: TDataSet);
+TProgressEvent=procedure(Sender: TObject; Stage: TProgressStage; PercentDone: Byte; RedrawNow: Boolean; const ref R: TRect; const Msg: String);
+TProviderDataEvent=procedure(DataSet: TClientDataSet);
+TPSInitPaintPageEvent=function(Sender: TObject; PaperSize: Smallint; PaperType: TPSPaperType; PaperOrientation: TPSPaperOrientation; PrinterType: TPSPrinterType; pSetupData: PPSDlgData): Boolean;
+TPSPaintPageEvent=function(Sender: TObject; PaintWhat: TPSPaintWhat; Canvas: TCanvas; ref Rect: TRect): Boolean;
+TPSPrinterEvent=procedure(Sender: TObject; Wnd: Integer);
+TQRAfterPreviewEvent=procedure(Sender: TObject);
+TQRAfterPrintEvent=procedure(Sender: TObject);
+TQRBandAfterPrintEvent=procedure(Sender: TQRCustomBand; BandPrinted: Boolean);
+TQRBandBeforePrintEvent=procedure(Sender: TQRCustomBand; var PrintBand: Boolean);
+TQRLabelOnPrintEvent=procedure(sender: TObject; var Value: String);
+TQRNotifyEvent=procedure(Sender: TQuickRep);
+TQROnNeedDataEvent=procedure(Sender: TObject; var MoreData: Boolean);
+TQRPageAvailableEvent=procedure(Sender: TObject; PageNum: Integer);
+TQRProgressUpdateEvent=procedure(Sender: TObject; Progress: Integer);
+TQRReportBeforePrintEvent=procedure(Sender: TQuickRep; var PrintReport: Boolean);
+TReconcileErrorEvent=procedure(DataSet: TClientDataSet; E: EReconcileError; UpdateKind: TUpdateKind; var Action: TReconcileAction);
+TResolverErrorEvent=procedure(DataSet: TClientDataSet; E: EUpdateError; UpdateKind: TUpdateKind; var Response: TResolverResponse);
+TRichEditProtectChange=procedure(Sender: TObject; StartPos: Integer; EndPos: Integer; var AllowChange: Boolean);
+TRichEditResizeEvent=procedure(Sender: TObject; ref Rect: TRect);
+TRichEditSaveClipboard=procedure(Sender: TObject; NumObjects: Integer; NumChars: Integer; var SaveClipboard: Boolean);
+TScrollEvent=procedure(Sender: TObject; ScrollCode: TScrollCode; var ScrollPos: Integer);
+TSectionEvent=procedure(Sender: TObject; ASection: Integer; AWidth: Integer);
+TSectionNotifyEvent=procedure(HeaderControl: THeaderControl; Section: THeaderSection);
+TSectionTrackEvent=procedure(HeaderControl: THeaderControl; Section: THeaderSection; Width: Integer; State: TSectionTrackState);
+TSelectCellEvent=procedure(Sender: TObject; Col: Integer; Row: Integer; var CanSelect: Boolean);
+TSetEditEvent=procedure(Sender: TObject; ACol: Integer; ARow: Integer; const Value: String);
+TSMTPBusy=procedure(Sender: TObject; isBusy: WordBool);
+TSMTPDocInput=procedure(Sender: TObject; const DocInput: DocInput);
+TSMTPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+TSMTPProtocolStateChanged=procedure(Sender: TObject; ProtocolState: Smallint);
+TSMTPStateChanged=procedure(Sender: TObject; State: Smallint);
+TSMTPTimeout=procedure(Sender: TObject; event: Smallint; var Continue: WordBool);
+TSocketErrorEvent=procedure(Sender: TObject; Socket: TCustomWinSocket; ErrorEvent: TErrorEvent; var ErrorCode: Integer);
+TSocketNotifyEvent=procedure(Sender: TObject; Socket: TCustomWinSocket);
+TStartDragEvent=procedure(Sender: TObject; var DragObject: TDragObject);
+TTabChangeEvent=procedure(Sender: TObject; NewTab: Integer; var AllowChange: Boolean);
+TTabChangingEvent=procedure(Sender: TObject; var AllowChange: Boolean);
+TTCPConnectionRequest=procedure(Sender: TObject; requestID: Integer);
+TTCPDataArrival=procedure(Sender: TObject; bytesTotal: Integer);
+TTCPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+TTCPSendProgress=procedure(Sender: TObject; bytesSent: Integer; bytesRemaining: Integer);
+TThreadNotifyEvent=procedure(Sender: TObject; Thread: TServerClientThread);
+TTVChangedEvent=procedure(Sender: TObject; Node: TTreeNode);
+TTVChangingEvent=procedure(Sender: TObject; Node: TTreeNode; var AllowChange: Boolean);
+TTVCollapsingEvent=procedure(Sender: TObject; Node: TTreeNode; var AllowCollapse: Boolean);
+TTVCompareEvent=procedure(Sender: TObject; Node1: TTreeNode; Node2: TTreeNode; Data: Integer; var Compare: Integer);
+TTVEditedEvent=procedure(Sender: TObject; Node: TTreeNode; var S: String);
+TTVEditingEvent=procedure(Sender: TObject; Node: TTreeNode; var AllowEdit: Boolean);
+TTVExpandedEvent=procedure(Sender: TObject; Node: TTreeNode);
+TTVExpandingEvent=procedure(Sender: TObject; Node: TTreeNode; var AllowExpansion: Boolean);
+TUDChangingEvent=procedure(Sender: TObject; var AllowChange: Boolean);
+TUDClickEvent=procedure(Sender: TObject; Button: TUDBtnType);
+TUDPDataArrival=procedure(Sender: TObject; bytesTotal: Integer);
+TUDPError=procedure(Sender: TObject; Number: Smallint; var Description: WideString; Scode: Integer; const Source: WideString; const HelpFile: WideString; HelpContext: Integer; var CancelDisplay: WordBool);
+TUpdateErrorEvent=procedure(DataSet: TDataSet; E: EDatabaseError; UpdateKind: TUpdateKind; var UpdateAction: TUpdateAction);
+TUpdateRecordEvent=procedure(DataSet: TDataSet; UpdateKind: TUpdateKind; var UpdateAction: TUpdateAction);
+TVSSpellAfterPopup=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellAfterReplace=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellBeforeReplace=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellCheckError=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellCheckStatus=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellClickIn=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellClickOut=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellComplete=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellFound=procedure(Sender: TObject; var EventAction: Smallint);
+TVSSpellMisspelled=procedure(Sender: TObject; var EventAction: Smallint);
+TVtChartAxisActivated=procedure(Sender: TObject; var AxisId: Smallint; var AxisIndex: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartAxisLabelActivated=procedure(Sender: TObject; var AxisId: Smallint; var AxisIndex: Smallint; var labelSetIndex: Smallint; var LabelIndex: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartAxisLabelSelected=procedure(Sender: TObject; var AxisId: Smallint; var AxisIndex: Smallint; var labelSetIndex: Smallint; var LabelIndex: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartAxisSelected=procedure(Sender: TObject; var AxisId: Smallint; var AxisIndex: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartAxisTitleActivated=procedure(Sender: TObject; var AxisId: Smallint; var AxisIndex: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartAxisTitleSelected=procedure(Sender: TObject; var AxisId: Smallint; var AxisIndex: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartChartActivated=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartChartSelected=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartFootnoteActivated=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartFootnoteSelected=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartLegendActivated=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartLegendSelected=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartPlotActivated=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartPlotSelected=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartPointActivated=procedure(Sender: TObject; var Series: Smallint; var DataPoint: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartPointLabelActivated=procedure(Sender: TObject; var Series: Smallint; var DataPoint: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartPointLabelSelected=procedure(Sender: TObject; var Series: Smallint; var DataPoint: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartPointSelected=procedure(Sender: TObject; var Series: Smallint; var DataPoint: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartSeriesActivated=procedure(Sender: TObject; var Series: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartSeriesLabelActivated=procedure(Sender: TObject; var Series: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartSeriesLabelSelected=procedure(Sender: TObject; var Series: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartSeriesSelected=procedure(Sender: TObject; var Series: Smallint; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartTitleActivated=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);
+TVtChartTitleSelected=procedure(Sender: TObject; var MouseFlags: Smallint; var Cancel: Smallint);

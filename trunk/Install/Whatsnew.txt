@@ -6,11 +6,13 @@ What's New
 [  - 删除旧的功能         ]
 [  * 修正缺陷             ]
 
-
+  V3.12
+  ===========================
+  + Show Form from DFM。
 
   V3.11
   ===========================
-  + 正式版。
+  + Base Version for Modified。
 
 
 

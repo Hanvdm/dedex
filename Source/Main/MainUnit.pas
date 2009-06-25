@@ -3377,21 +3377,28 @@ procedure TDeDeMainForm.mniShowFormClick(Sender: TObject);
 var
   aCurDfmForm: TForm;
 begin
-  RegisterAllClasses();
+  try
+    RegisterAllClasses();
 
-  aCurDfmForm := LoadFormFromStrings(DFMMemo.Lines);
+    aCurDfmForm := LoadFormFromStrings(DFMMemo.Lines);
 
-  if Assigned(aCurDfmForm) then
-  begin
+    if Assigned(aCurDfmForm) then
+    begin
 
-    if aCurDfmForm.BorderStyle = bsNone then
-      aCurDfmForm.BorderStyle := bsSizeable;
-    aCurDfmForm.BorderIcons := [biSystemMenu, biMinimize, biMaximize, biHelp];
+      if aCurDfmForm.BorderStyle = bsNone then
+        aCurDfmForm.BorderStyle := bsSizeable;
+      aCurDfmForm.BorderIcons := [biSystemMenu, biMinimize, biMaximize];
 
-    aCurDfmForm.ShowModal;
-    FreeAndNil(aCurDfmForm);
+      aCurDfmForm.ShowModal;
+      FreeAndNil(aCurDfmForm);
+    end;
+  except
+    on e: Exception do
+    begin
+      Application.MessageBox(PChar('Error:' + e.Message),
+        'Error', MB_ICONERROR);
+    end;
   end;
-
 end;
 
 procedure TDeDeMainForm.LoadOffsetInfo;
@@ -3604,6 +3611,8 @@ begin
   DFMListPopUp.Items[2].Caption:=pm_DFMListPopUp_2;
   DFMListPopUp.Items[3].Caption:=pm_DFMListPopUp_3;
   DFMListPopUp.Items[4].Caption:=pm_DFMListPopUp_4;
+  DFMListPopUp.Items[6].Caption:=pm_DFMListPopUp_6;
+
 
   // Tab Controls
   uts.Caption:=tab_mpc_uts;

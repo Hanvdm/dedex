@@ -46,6 +46,9 @@ unit DeDeRes;
   pm_DFMListPopUp_2 : String = 'Save as TXT';
   pm_DFMListPopUp_3 : String = 'Save as DFM';
   pm_DFMListPopUp_4 : String = 'Save as RES';
+  pm_DFMListPopUp_6 : String = 'Show Form';
+
+
 
   {TAB CONTROLS}
   tab_mpc_uts : String = 'Classes Info';

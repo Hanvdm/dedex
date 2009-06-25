@@ -3,5 +3,12 @@
 	<Transactions>
     <Transaction>2009-06-08 16:20:07.546.pas,D:\NewServerSoft\Trunk\一卡通软件\工具\DeDe\Source\Main\Unit2.pas=D:\NewServerSoft\Trunk\一卡通软件\工具\DeDe\Source\Main\DeDeClassHandle.pas</Transaction>
     <Transaction>2009-06-19 09:07:40.656.pas,D:\NewServerSoft\Trunk\一卡通软件\工具\DeDe\Source\Main\Unit2.pas=D:\NewServerSoft\Trunk\一卡通软件\工具\DeDe\Source\Main\DeDeUtils.pas</Transaction>
+    <Transaction>2009-06-24 13:57:11.515.pas,E:\Source\OpenSource\Dedex\trunk\Source\Main\Unit2.pas=E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeDfm.pas</Transaction>
+    <Transaction>2009-06-24 14:45:06.828.pas,E:\Source\OpenSource\Dedex\trunk\Source\Main\Unit2.pas=E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeComponentForm.pas</Transaction>
+    <Transaction>2009-06-24 14:45:06.828.dfm,E:\Source\OpenSource\Dedex\trunk\Source\Main\Unit2.dfm=E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeComponentForm.dfm</Transaction>
+    <Transaction>2009-06-24 15:21:20.656.pas,E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeComponentForm.pas=</Transaction>
+    <Transaction>2009-06-24 15:21:20.656.dfm,E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeComponentForm.dfm=</Transaction>
+    <Transaction>2009-06-25 13:57:25.937.pas,E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeComponentForm.pas=</Transaction>
+    <Transaction>2009-06-25 13:57:25.937.dfm,E:\Source\OpenSource\Dedex\trunk\Source\Main\DeDeComponentForm.dfm=</Transaction>
   </Transactions>
 </BorlandProject>

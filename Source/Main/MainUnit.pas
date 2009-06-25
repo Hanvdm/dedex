@@ -153,6 +153,8 @@ type
     dlgOpen: TOpenDialog;
     btnOpenFile: TBitBtn;
     btnOpenDir: TButton;
+    mniN11: TMenuItem;
+    mniShowForm: TMenuItem;
     Procedure DCULVClick(Sender: TObject);
     Procedure PreBtnClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -236,9 +238,9 @@ type
     procedure FEKeyPress(Sender: TObject; var Key: Char);
     procedure btnOpenFileClick(Sender: TObject);
     procedure btnOpenDirClick(Sender: TObject);
+    procedure mniShowFormClick(Sender: TObject);
   private
     { Private declarations }
-
     function IdentCompiler(var AsOffset: String): String;
     procedure ClearDeDeLists;
     procedure FreeOpCodes;
@@ -358,7 +360,7 @@ Uses DeDeConstants, HEXTools, DeDePAS, FMXUtils, Clipbrd,
   SymbolsUnit, ClassInfoUnit, DeDeHidden, SelProcessUnit, DeDeMemDumps,
   MakePEHUnit, DeDeClassEmulator, DOIBUnit, DeDeWpjAlf, custsetunit,
   SpyDebugUnit, DeDeRes, AnalizUnit, DeDeOffsInf, StatsUnit, IniFiles,
-  DeDeDPJEng, Asm2Pas, DeDeELFClasses, DeDeZAUnit, Registry, LAUnit;
+  DeDeDPJEng, Asm2Pas, DeDeELFClasses, DeDeZAUnit, Registry, LAUnit, DeDeDfm;
 
 
 
@@ -398,16 +400,18 @@ end;
 
 procedure TDeDeMainForm.PreBtnClick(Sender: TObject);
 var //PE : TDelphi4PE;
-    ProjHeader : TDFMProjectHeader;
-    sCompilerOffset : String;
-    sCompilerComment : String;
-    dwProjectHeaderOffset : DWORD;
-    i,idx : Integer;
-    ListItem : TListItem;
-    tick1,tick2 : Cardinal;
-    iIDX : Byte;
-    bNoChanges : Boolean;
+  str: string;
+  ProjHeader : TDFMProjectHeader;
+  sCompilerOffset : String;
+  sCompilerComment : String;
+  dwProjectHeaderOffset : DWORD;
+  i,idx : Integer;
+  ListItem : TListItem;
+  tick1,tick2 : Cardinal;
+  iIDX : Byte;
+  bNoChanges : Boolean;
 begin
+
   //是否CB
   GlobCBuilder := False;
   tick1 := GetTickCount;
@@ -429,6 +433,15 @@ begin
 
     If RecentFileEdit.Items.Count > 10 Then
       RecentFileEdit.Items.Delete(RecentFileEdit.Items.Count-1);
+
+    if RecentFileEdit.ItemIndex <> 0 then
+    begin
+      str := RecentFileEdit.Text;
+      RecentFileEdit.DeleteSelected;
+      RecentFileEdit.Items.Insert(0, str);
+      RecentFileEdit.ItemIndex := 0;
+    end;
+
     GlobGetImports := True;
 
     // 创建新的PEFile, dumps the PEHeader and assigns it to
@@ -956,6 +969,7 @@ begin
     else Application.Terminate;
 end;
 
+
 procedure TDeDeMainForm.FormCreate(Sender: TObject);
 var
   paramFile, RecFile : String;
@@ -1338,28 +1352,28 @@ var blah : TStringList;
 Begin
   If DFMList.Selected=nil Then Exit;
 
-  blah:=DeDeMainForm.ClassesDumper.GetDFMTXTDATA(DFMList.Selected.Caption);
-  if blah=nil then exit;
+  blah := DeDeMainForm.ClassesDumper.GetDFMTXTDATA(DFMList.Selected.Caption);
+  if blah = nil then exit;
 
   Try
-   Screen.Cursor:=crHourGlass;
-   Try
-     If FbLoadDFMInMemo Then DFMMemo.Lines.Assign(blah);
-   Finally
-     Screen.Cursor:=crDefault;
-   End;
+    Screen.Cursor:=crHourGlass;
+    Try
+      If FbLoadDFMInMemo Then DFMMemo.Lines.Assign(blah);
+    Finally
+      Screen.Cursor:=crDefault;
+    End;
   Except
-     On e : Exception Do
-      If e.Message=err_text_exceeds Then
-        Begin
-          DFMMemo.Clear;
-          If MessageDlg(msg_notepad_offer,
-             mtConfirmation,[mbYes,mbNo],0)=mrNo Then Exit;
-          blah.SaveToFile(FsTEMPDir+'\dfm.$$$');
-          ExecuteFile('notepad.exe',FsTEMPDir+'\dfm.$$$','',1);
-          DeleteTimer.Enabled:=True;
-        End
-        Else Raise;
+    On e : Exception Do
+    If e.Message=err_text_exceeds Then
+    Begin
+      DFMMemo.Clear;
+      If MessageDlg(msg_notepad_offer, mtConfirmation,[mbYes,mbNo],0) = mrNo Then
+        Exit;
+      blah.SaveToFile(FsTEMPDir+'\dfm.$$$');
+      ExecuteFile('notepad.exe',FsTEMPDir+'\dfm.$$$','',1);
+      DeleteTimer.Enabled:=True;
+    End
+    Else Raise;
   End;
 end;
 
@@ -3357,6 +3371,27 @@ end;
 procedure TDeDeMainForm.MakePEHeader1Click(Sender: TObject);
 begin
   //MakePEHForm.ShowModal;
+end;
+
+procedure TDeDeMainForm.mniShowFormClick(Sender: TObject);
+var
+  aCurDfmForm: TForm;
+begin
+  RegisterAllClasses();
+
+  aCurDfmForm := LoadFormFromStrings(DFMMemo.Lines);
+
+  if Assigned(aCurDfmForm) then
+  begin
+
+    if aCurDfmForm.BorderStyle = bsNone then
+      aCurDfmForm.BorderStyle := bsSizeable;
+    aCurDfmForm.BorderIcons := [biSystemMenu, biMinimize, biMaximize, biHelp];
+
+    aCurDfmForm.ShowModal;
+    FreeAndNil(aCurDfmForm);
+  end;
+
 end;
 
 procedure TDeDeMainForm.LoadOffsetInfo;

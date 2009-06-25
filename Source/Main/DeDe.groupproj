@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{eb05a084-e069-4e4f-9050-b8932c54063c}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="DeDe.dproj" />
+    <Projects Include="DFMClass\DFMClass11.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="DeDe">
+    <MSBuild Projects="DeDe.dproj" Targets="" />
+  </Target>
+  <Target Name="DeDe:Clean">
+    <MSBuild Projects="DeDe.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="DeDe:Make">
+    <MSBuild Projects="DeDe.dproj" Targets="Make" />
+  </Target>
+  <Target Name="DFMClass11">
+    <MSBuild Projects="DFMClass\DFMClass11.dproj" Targets="" />
+  </Target>
+  <Target Name="DFMClass11:Clean">
+    <MSBuild Projects="DFMClass\DFMClass11.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="DFMClass11:Make">
+    <MSBuild Projects="DFMClass\DFMClass11.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="DeDe;DFMClass11" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="DeDe:Clean;DFMClass11:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="DeDe:Make;DFMClass11:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

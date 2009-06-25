@@ -212,6 +212,7 @@ begin
   except
     Form.Free;
     Result := nil;
+    raise;
   end;
 
 end;

@@ -1,4 +1,5 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{e1f42cee-d3c0-4822-b723-2479a878edce}</ProjectGuid>
     <MainSource>DeDe.dpr</MainSource>
@@ -47,7 +48,7 @@
     <Borland.Personality>Delphi.Personality</Borland.Personality>
     <Borland.ProjectType>VCLApplication</Borland.ProjectType>
     <BorlandProject>
-<BorlandProject><Delphi.Personality><Parameters><Parameters Name="RunParams">more</Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Language><Language Name="RootDir">F:\Delphi\Bin\</Language></Language><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">9</VersionInfo><VersionInfo Name="MinorVer">6</VersionInfo><VersionInfo Name="Release">19</VersionInfo><VersionInfo Name="Build">9</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">True</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">9.6.19.9</VersionInfoKeys><VersionInfoKeys Name="InternalName">DeDe</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">(c) 1999-2002 by DaFixer</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">3.11</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">DeDe.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Language><Language Name="RootDir">F:\Delphi\Bin\</Language></Language><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">9</VersionInfo><VersionInfo Name="MinorVer">6</VersionInfo><VersionInfo Name="Release">25</VersionInfo><VersionInfo Name="Build">14</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">True</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">9.6.25.14</VersionInfoKeys><VersionInfoKeys Name="InternalName">DeDe</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">(c) 1999-2002 by DaFixer</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">3.11</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">DeDe.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
   </ProjectExtensions>
   <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
   <ItemGroup>
@@ -93,6 +94,7 @@
     <DCCReference Include="DeDeClassHandle.pas" />
     <DCCReference Include="DeDeConstants.pas" />
     <DCCReference Include="DeDeDCUDumper.pas" />
+    <DCCReference Include="DeDeDfm.pas" />
     <DCCReference Include="DeDeDisAsm.pas" />
     <DCCReference Include="DeDeDPJEng.pas" />
     <DCCReference Include="DeDeDUF.pas" />
@@ -126,6 +128,7 @@
     <DCCReference Include="EPFindUnit.pas">
       <Form>EPFindForm</Form>
     </DCCReference>
+    <DCCReference Include="FatExpression.pas" />
     <DCCReference Include="MainUnit.pas">
       <Form>DeDeMainForm</Form>
     </DCCReference>

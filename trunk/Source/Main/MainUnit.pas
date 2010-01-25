@@ -155,6 +155,7 @@ type
     btnOpenDir: TButton;
     mniN11: TMenuItem;
     mniShowForm: TMenuItem;
+    GroupBox1: TGroupBox;
     Procedure DCULVClick(Sender: TObject);
     Procedure PreBtnClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -1550,7 +1551,9 @@ begin
     end;
 
     sDir:=sDir+'\'+ProjectNameLbl.Caption;
-    CreateDir(ProjectNameLbl.Caption);
+    DirEdit.Text:=sDir;
+    //CreateDir(ProjectNameLbl.Caption);
+    CreateDir(sDir);
     SetCurrentDir(sDir);
 
   Finally
@@ -2229,6 +2232,7 @@ begin
   else
   begin
     RecentFileEdit.Items.Insert(0, s);
+    RecentFileEdit.ItemIndex := 0;
   end;
 end;
 

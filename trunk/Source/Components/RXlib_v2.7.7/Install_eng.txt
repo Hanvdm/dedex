@@ -1,0 +1,31 @@
+RxLib for Delphi2006
+(02/01/2006)
+=======================================
+
+* Add the rxLib Unit directory (...RxLib_2006\Units) to:
+Tools->options 
+ - Environment Options
+   - Delphi Options
+     - Library - Win32 | Library Path
+
+* Open the project from IDE:
+File->Open: ...\RxLib_2006\Units\Rxlib2006.bdsgroup
+
+* Compile All packeges:
+Project-> Build All projects
+
+* Install all packages:
+Una vez que todos los paquetes se han compilado correctamente se 
+deben instalar los que son de diseño; Click derecho sobre los packages y
+pulsar [Install] (View -> Project Manager):
+
+   dclrx2006.bpl [install]
+   dcldb2006.bpl [install]
+   dcldb2006.bpl [install]
+
+=====================================
+german_ral@hotmail.com
+http://neftali.clubDelphi.comç
+
+P.D: Based in compilation for Delphi2005 made by qmd/usercontrol.
+

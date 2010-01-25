@@ -34,10 +34,10 @@
     <DCC_OpenStringParams>False</DCC_OpenStringParams>
     <DCC_StrictVarStrings>False</DCC_StrictVarStrings>
     <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
-    <DCC_UnitSearchPath>FatExpression</DCC_UnitSearchPath>
-    <DCC_ResourcePath>FatExpression</DCC_ResourcePath>
-    <DCC_ObjPath>FatExpression</DCC_ObjPath>
-    <DCC_IncludePath>FatExpression</DCC_IncludePath>
+    <DCC_UnitSearchPath>FatExpression;..\Components\VCLZip.Pro.v3.05</DCC_UnitSearchPath>
+    <DCC_ResourcePath>FatExpression;..\Components\VCLZip.Pro.v3.05</DCC_ResourcePath>
+    <DCC_ObjPath>FatExpression;..\Components\VCLZip.Pro.v3.05</DCC_ObjPath>
+    <DCC_IncludePath>FatExpression;..\Components\VCLZip.Pro.v3.05</DCC_IncludePath>
     <DCC_Define>DEBUG</DCC_Define>
     <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
     <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>

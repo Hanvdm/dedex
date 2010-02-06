@@ -78,7 +78,7 @@ type
   BIGINT = LongInt;
   {$ENDIF}
   CharArrayPtr = ^CharArray;
-  CharArray = array[0..MaxInt-1] of Char;
+  CharArray = array[0..MaxInt-1] of AnsiChar;
   ByteArrayPtr = ^ByteArray;
   ByteArray = array[0..MaxInt-1] of Byte;
   IntegerArrayPtr = ^IntegerArray;

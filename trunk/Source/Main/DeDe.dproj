@@ -94,7 +94,6 @@
     <DCCReference Include="DeDeClassHandle.pas" />
     <DCCReference Include="DeDeConstants.pas" />
     <DCCReference Include="DeDeDCUDumper.pas" />
-    <DCCReference Include="DeDeDfm.pas" />
     <DCCReference Include="DeDeDisAsm.pas" />
     <DCCReference Include="DeDeDPJEng.pas" />
     <DCCReference Include="DeDeDUF.pas" />

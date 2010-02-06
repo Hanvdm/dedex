@@ -65,8 +65,7 @@ uses
   DeDeClassHandle in 'DeDeClassHandle.pas',
   DeDePAS in 'DeDePAS.pas',
   DeDeUtils in 'DeDeUtils.pas',
-  FatExpression in 'FatExpression.pas',
-  DeDeDfm in 'DeDeDfm.pas';
+  FatExpression in 'FatExpression.pas';
 
 {$R *.RES}
 

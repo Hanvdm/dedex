@@ -962,7 +962,7 @@ end;
 
 function BlockCompare(const Buf1, Buf2; Count: Integer): Boolean;
 type
-   BufArray = array[0..MaxInt - 1] of Char;
+   BufArray = array[0..MaxInt - 1] of AnsiChar;
 var
    I                          : Integer;
 begin

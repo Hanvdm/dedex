@@ -239,7 +239,6 @@ type
     procedure FEKeyPress(Sender: TObject; var Key: Char);
     procedure btnOpenFileClick(Sender: TObject);
     procedure btnOpenDirClick(Sender: TObject);
-    procedure mniShowFormClick(Sender: TObject);
   private
     { Private declarations }
     function IdentCompiler(var AsOffset: String): String;
@@ -361,7 +360,7 @@ Uses DeDeConstants, HEXTools, DeDePAS, FMXUtils, Clipbrd,
   SymbolsUnit, ClassInfoUnit, DeDeHidden, SelProcessUnit, DeDeMemDumps,
   MakePEHUnit, DeDeClassEmulator, DOIBUnit, DeDeWpjAlf, custsetunit,
   SpyDebugUnit, DeDeRes, AnalizUnit, DeDeOffsInf, StatsUnit, IniFiles,
-  DeDeDPJEng, Asm2Pas, DeDeELFClasses, DeDeZAUnit, Registry, LAUnit, DeDeDfm;
+  DeDeDPJEng, Asm2Pas, DeDeELFClasses, DeDeZAUnit, Registry, LAUnit;
 
 
 
@@ -3375,34 +3374,6 @@ end;
 procedure TDeDeMainForm.MakePEHeader1Click(Sender: TObject);
 begin
   //MakePEHForm.ShowModal;
-end;
-
-procedure TDeDeMainForm.mniShowFormClick(Sender: TObject);
-var
-  aCurDfmForm: TForm;
-begin
-  try
-    RegisterAllClasses();
-
-    aCurDfmForm := LoadFormFromStrings(DFMMemo.Lines);
-
-    if Assigned(aCurDfmForm) then
-    begin
-
-      if aCurDfmForm.BorderStyle = bsNone then
-        aCurDfmForm.BorderStyle := bsSizeable;
-      aCurDfmForm.BorderIcons := [biSystemMenu, biMinimize, biMaximize];
-
-      aCurDfmForm.ShowModal;
-      FreeAndNil(aCurDfmForm);
-    end;
-  except
-    on e: Exception do
-    begin
-      Application.MessageBox(PChar('Error:' + e.Message),
-        'Error', MB_ICONERROR);
-    end;
-  end;
 end;
 
 procedure TDeDeMainForm.LoadOffsetInfo;
